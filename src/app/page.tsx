@@ -5,437 +5,636 @@ import Footer from "./components/footer/page";
 export default function Home() {
   return (
     <>
-    <Header/>
-    <section>
-      <div className="banner-top">
-        <div className="container">
-          <h2>קניית עוקבים לייקים וצפיות <span>וברשתות החברתיות</span> באינסטגרם</h2>
-          <p>האתר הותיק בישראל לקידום באינסטגרם - קידום עוקבים, לייקים, צפיות ותגובות בכל הרשתות במקום אחד. אנו מספקים חשבונות באיכות הגבוהה ביותר עם אספקה מהירה ואחריות מלאה.</p>
-        <a href="#" className="com-btn">Get Started</a>
-        <ul>
-          <li>משלוח מהיר    <Image
-                                className=""
-                                src="/assets/images/quick.svg"
-                                width={25}
-                                height={25}
-                                alt=""
-                              /></li>
-          <li>תוצאות אמיתיות <Image
-                                className=""
-                                src="/assets/images/results.svg"
-                                width={25}
-                                height={25}
-                                alt=""
-                              /></li>
-          <li>אנשים אמיתיים <Image
-                                className=""
-                                src="/assets/images/people.svg"
-                                width={25}
-                                height={25}
-                                alt=""
-                              /></li>
-        </ul>
+      <Header />
+      <section>
+        <div className="banner-top">
+          <div className="container">
+            <h2>
+              קניית עוקבים לייקים וצפיות <span>וברשתות החברתיות</span> באינסטגרם
+            </h2>
+            <p>
+              האתר הותיק בישראל לקידום באינסטגרם - קידום עוקבים, לייקים, צפיות
+              ותגובות בכל הרשתות במקום אחד. אנו מספקים חשבונות באיכות הגבוהה
+              ביותר עם אספקה מהירה ואחריות מלאה.
+            </p>
+            <a href="#" className="com-btn">
+              Get Started
+            </a>
+            <ul>
+              <li>
+                משלוח מהיר{" "}
+                <Image
+                  className=""
+                  src="/assets/images/quick.svg"
+                  width={25}
+                  height={25}
+                  alt=""
+                />
+              </li>
+              <li>
+                תוצאות אמיתיות{" "}
+                <Image
+                  className=""
+                  src="/assets/images/results.svg"
+                  width={25}
+                  height={25}
+                  alt=""
+                />
+              </li>
+              <li>
+                אנשים אמיתיים{" "}
+                <Image
+                  className=""
+                  src="/assets/images/people.svg"
+                  width={25}
+                  height={25}
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
-    <section className="medias-main">
+      </section>
+      <section className="medias-main">
         <div className="container">
           <div className="media-outer-box">
             <div className="media-link">
-              <a href="#">סמן את כל השירותים <Image
-                                className=""
-                                src="/assets/images/arrow.svg"
-                                width={25}
-                                height={25}
-                                alt=""
-                              /></a>
+              <a href="#">
+                סמן את כל השירותים{" "}
+                <Image
+                  className=""
+                  src="/assets/images/arrow.svg"
+                  width={25}
+                  height={25}
+                  alt=""
+                />
+              </a>
             </div>
             <h3>שירותים פופולריים</h3>
             <p>גלה את משחק המדיה החברתית הפופולרי שלנו והרחיב אותו</p>
             <div className="row">
               <div className="col-md-3">
                 <div className="media-box">
-                    <h4>לקנות מנויי יוטיוב <Image
-                                className=""
-                                src="/assets/images/youtube.svg"
-                                width={40}
-                                height={40}
-                                alt=""
-                              /></h4>
-                    <h6>המחיר מתחיל מ-$3</h6>
-                    <div className="order-bk">
-                      <a href="#">Order Now</a>
-                      <Image
-                                className=""
-                                src="/assets/images/stars.svg"
-                                width={80}
-                                height={17}
-                                alt=""
-                              />
-                    </div>
+                  <h4>
+                    לקנות מנויי יוטיוב{" "}
+                    <Image
+                      className=""
+                      src="/assets/images/youtube.svg"
+                      width={40}
+                      height={40}
+                      alt=""
+                    />
+                  </h4>
+                  <h6>המחיר מתחיל מ-$3</h6>
+                  <div className="order-bk">
+                    <a href="#">Order Now</a>
+                    <Image
+                      className=""
+                      src="/assets/images/stars.svg"
+                      width={80}
+                      height={17}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
-                 <div className="col-md-3">
+              <div className="col-md-3">
                 <div className="media-box">
-                    <h4>לקנות מנויי יוטיוב <Image
-                                className=""
-                                src="/assets/images/cloud.svg"
-                                width={40}
-                                height={40}
-                                alt=""
-                              /></h4>
-                    <h6>המחיר מתחיל מ-$3</h6>
-                    <div className="order-bk">
-                      <a href="#">Order Now</a>
-                      <Image
-                                className=""
-                                src="/assets/images/stars.svg"
-                                width={80}
-                                height={17}
-                                alt=""
-                              />
-                    </div>
+                  <h4>
+                    לקנות מנויי יוטיוב{" "}
+                    <Image
+                      className=""
+                      src="/assets/images/cloud.svg"
+                      width={40}
+                      height={40}
+                      alt=""
+                    />
+                  </h4>
+                  <h6>המחיר מתחיל מ-$3</h6>
+                  <div className="order-bk">
+                    <a href="#">Order Now</a>
+                    <Image
+                      className=""
+                      src="/assets/images/stars.svg"
+                      width={80}
+                      height={17}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
-                 <div className="col-md-3">
+              <div className="col-md-3">
                 <div className="media-box">
-                    <h4>לקנות מנויי יוטיוב <Image
-                                className=""
-                                src="/assets/images/fb.svg"
-                                width={40}
-                                height={40}
-                                alt=""
-                              /></h4>
-                    <h6>המחיר מתחיל מ-$3</h6>
-                    <div className="order-bk">
-                      <a href="#">Order Now</a>
-                      <Image
-                                className=""
-                                src="/assets/images/stars.svg"
-                                width={80}
-                                height={17}
-                                alt=""
-                              />
-                    </div>
+                  <h4>
+                    לקנות מנויי יוטיוב{" "}
+                    <Image
+                      className=""
+                      src="/assets/images/fb.svg"
+                      width={40}
+                      height={40}
+                      alt=""
+                    />
+                  </h4>
+                  <h6>המחיר מתחיל מ-$3</h6>
+                  <div className="order-bk">
+                    <a href="#">Order Now</a>
+                    <Image
+                      className=""
+                      src="/assets/images/stars.svg"
+                      width={80}
+                      height={17}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
-                 <div className="col-md-3">
+              <div className="col-md-3">
                 <div className="media-box">
-                    <h4>לקנות מנויי יוטיוב <Image
-                                className=""
-                                src="/assets/images/insta.svg"
-                                width={40}
-                                height={40}
-                                alt=""
-                              /></h4>
-                    <h6>המחיר מתחיל מ-$3</h6>
-                    <div className="order-bk">
-                      <a href="#">Order Now</a>
-                      <Image
-                                className=""
-                                src="/assets/images/stars.svg"
-                                width={80}
-                                height={17}
-                                alt=""
-                              />
-                    </div>
+                  <h4>
+                    לקנות מנויי יוטיוב{" "}
+                    <Image
+                      className=""
+                      src="/assets/images/insta.svg"
+                      width={40}
+                      height={40}
+                      alt=""
+                    />
+                  </h4>
+                  <h6>המחיר מתחיל מ-$3</h6>
+                  <div className="order-bk">
+                    <a href="#">Order Now</a>
+                    <Image
+                      className=""
+                      src="/assets/images/stars.svg"
+                      width={80}
+                      height={17}
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
-        </div>
-    </section>
-    <section className="section-block">
-      <div className="container">
+      </section>
+      <section className="section-block">
+        <div className="container">
           <h6>ברוכים הבאים ל</h6>
-          <h2>המקום הטוב ביותר לקניית עוקבים, לייקים <br/><span>ברשת החברתית</span> וצפיות</h2>
-          <p>מחפש את הדרך הזולה והטובה ביותר לשפר את הנוכחות שלך במדיה חברתית ? אנו כחברה המובילה והותיקה בשוק סושיאל בוסט הוא הפתרון בשבילך נספק עבורך שירותי קניית עוקבים, לייקים וצפיות ברשתות החברתיות - באיכות הגבוהה ביותר ובאחריות מלאה</p>
-        <div className="row">
-          <div className="col-md-3">
-            <div className="block-social">
-              <div className="image-wrp">
-                <Image
-                                className=""
-                                src="/assets/images/tl-one.png"
-                                width={70}
-                                height={70}
-                                alt=""
-                              />
-                              </div>
-                              <div>
-                                <h5>הכי זולים בשוק <span>4</span></h5>
-                                <p>כדי לשמר את לקוחותינו, אנו בSocialBoost מאמינים כי המחיר הזול ביותר בשוק הוא הדרך הטובה ביותר לעשות זאת – וזה בדוק!</p>
-                              </div>
+          <h2>
+            המקום הטוב ביותר לקניית עוקבים, לייקים <br />
+            <span>ברשת החברתית</span> וצפיות
+          </h2>
+          <p>
+            מחפש את הדרך הזולה והטובה ביותר לשפר את הנוכחות שלך במדיה חברתית ?
+            אנו כחברה המובילה והותיקה בשוק סושיאל בוסט הוא הפתרון בשבילך נספק
+            עבורך שירותי קניית עוקבים, לייקים וצפיות ברשתות החברתיות - באיכות
+            הגבוהה ביותר ובאחריות מלאה
+          </p>
+          <div className="row">
+            <div className="col-md-3">
+              <div className="block-social">
+                <div className="image-wrp">
+                  <Image
+                    className=""
+                    src="/assets/images/tl-one.png"
+                    width={70}
+                    height={70}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    הכי זולים בשוק <span>4</span>
+                  </h5>
+                  <p>
+                    כדי לשמר את לקוחותינו, אנו בSocialBoost מאמינים כי המחיר
+                    הזול ביותר בשוק הוא הדרך הטובה ביותר לעשות זאת – וזה בדוק!
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-           <div className="col-md-3">
-            <div className="block-social">
-              <div className="image-wrp">
-                <Image
-                                className=""
-                                src="/assets/images/tl-two.png"
-                                width={70}
-                                height={70}
-                                alt=""
-                              />
-                              </div>
-                              <div>
-                               <h5>אמינות<span className="prp">3</span></h5>
-                                <p>כחברה המובילה בשוק הקיימת מ2016, אנו מבטיחים לספק את השירותים באיכות הגבוהה ביותר ובאופן המאובטח ביותר לחשבונך. הצטרף עוד היום לעשרות אלפי הלקוחות המרוצים שלנו שהגדילו את נוכחותם החברתית ברשת</p>
-                              </div>
+            <div className="col-md-3">
+              <div className="block-social">
+                <div className="image-wrp">
+                  <Image
+                    className=""
+                    src="/assets/images/tl-two.png"
+                    width={70}
+                    height={70}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    אמינות<span className="prp">3</span>
+                  </h5>
+                  <p>
+                    כחברה המובילה בשוק הקיימת מ2016, אנו מבטיחים לספק את
+                    השירותים באיכות הגבוהה ביותר ובאופן המאובטח ביותר לחשבונך.
+                    הצטרף עוד היום לעשרות אלפי הלקוחות המרוצים שלנו שהגדילו את
+                    נוכחותם החברתית ברשת
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-           <div className="col-md-3">
-            <div className="block-social">
-              <div className="image-wrp">
-                <Image
-                                className=""
-                                src="/assets/images/tl-three.png"
-                                width={57}
-                                height={70}
-                                alt=""
-                              />
-                              </div>
-                              <div>
-                              <h5>האחריות שלנו<span className="pnk">2</span></h5>
-                                <p>אנחנו שואפים להשאיר רושם מצוין על לקוחותינו. אם אינך מרוצה מאיכות המוצר, מזמן המשלוח או שלא קיבלת את ההזמנה – פנה אלינו ותקבל החזר כספי מלא. הרכישה באתר מאובטחת באמצעות פייפל וקארדקום.</p>
-                              </div>
+            <div className="col-md-3">
+              <div className="block-social">
+                <div className="image-wrp">
+                  <Image
+                    className=""
+                    src="/assets/images/tl-three.png"
+                    width={57}
+                    height={70}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    האחריות שלנו<span className="pnk">2</span>
+                  </h5>
+                  <p>
+                    אנחנו שואפים להשאיר רושם מצוין על לקוחותינו. אם אינך מרוצה
+                    מאיכות המוצר, מזמן המשלוח או שלא קיבלת את ההזמנה – פנה אלינו
+                    ותקבל החזר כספי מלא. הרכישה באתר מאובטחת באמצעות פייפל
+                    וקארדקום.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-           <div className="col-md-3">
-            <div className="block-social">
-              <div className="image-wrp">
-                <Image
-                                className=""
-                                src="/assets/images/tl-four.png"
-                                width={60}
-                                height={70}
-                                alt=""
-                              />
-                              </div>
-                              <div>
-                               <h5>תמיכה 24/7<span className="org">1</span></h5>
-                                <p>החוויה הכוללת שלך היא בראש סדר העדיפויות שלנו ולכן אנו מציעים ללקוחותינו תמיכה אישית מהשורה הראשונה. יש לך שאלות? צוות התמיכה המסור שלנו זמין תמיד וכאן לכל שאלה או בעיה, אנא אל תהסס לפנות אלינו</p>
-                              </div>
+            <div className="col-md-3">
+              <div className="block-social">
+                <div className="image-wrp">
+                  <Image
+                    className=""
+                    src="/assets/images/tl-four.png"
+                    width={60}
+                    height={70}
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h5>
+                    תמיכה 24/7<span className="org">1</span>
+                  </h5>
+                  <p>
+                    החוויה הכוללת שלך היא בראש סדר העדיפויות שלנו ולכן אנו
+                    מציעים ללקוחותינו תמיכה אישית מהשורה הראשונה. יש לך שאלות?
+                    צוות התמיכה המסור שלנו זמין תמיד וכאן לכל שאלה או בעיה, אנא
+                    אל תהסס לפנות אלינו
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section className="section-block">
-      <div className="container">
+      <section className="section-block">
+        <div className="container">
           <h6>למה לקנות ?</h6>
-          <h2>למה לקנות עוקבים ולייקים ברשת <br/><span>החברתית ?</span></h2>
-          <p>גם אם אתה מבלה שעות על יצירת פרופיל מושלם והעלאת תוכן מעניין כי אתה בטוח שאנשים ירצו לראות אותו, עליך לתת את הרושם הראשוני הטוב ביותר. רוב האנשים לא יביעו עניין בדף רשת חברתי לא ויראלי שאין לו עוקבים, לייקים ותנועה עוצמתית. אבל אם הם רואים שהרבה אנשים מתעניינים בדף שלך, הם מיד יתעניינו גם כן, ויבדקו בעצמם על מה מדובר SocialBoost כאן כדי לעזור לך!</p>
-          <p>קניית עוקבים ולייקים היא דרך מעולה להפוך את דף הרשת החברתית שלך לדף פופולארי שימשוך את הקהל הנחשף אליו. באמצעות שירותי הקידום שלנו תוכל למשוך את הקהל המבקר בעמוד שלך ובכך להפוך אותו לדף ויראלי שכולם ידברו עליו. כך תשיג את התוצאות שתמיד חלמת עליהם במהירות וביעילות. חבילות קניית העוקבים והלייקים באינסטגרם, בפייסבוק וביוטיוב נועדו להגביר את מסעות הפרסום שלך ברשת החברתית במהירות וביעילות.</p>
-            <ul>
-              <li>
-                 <Image
-                                className=""
-                                src="/assets/images/st-one.png"
-                                width={186}
-                                height={177}
-                                alt=""
-                              />
-                הגדלת המכירות והלידים של <br/>העסק</li>
-              <li>
-                 <Image
-                                className=""
-                                src="/assets/images/st-two.png"
-                                width={186}
-                                height={177}
-                                alt=""
-                              />
-הגברת המוניטין של העסק <br/>בקרב קהל היעד</li>
-              <li>
-                 <Image
-                                className=""
-                                src="/assets/images/st-three.png"
-                                width={186}
-                                height={177}
-                                alt=""
-                              />
-              הגברת הנוכחות במדיה <br/> החברתית</li>
-              <li>
-                 <Image
-                                className=""
-                                src="/assets/images/st-four.png"
-                                width={186}
-                                height={177}
-                                alt=""
-                              />
-                מקור להגדלת עוקבים <br/>אורגניים</li>
-            </ul>
-          </div>
-          </section>
+          <h2>
+            למה לקנות עוקבים ולייקים ברשת <br />
+            <span>החברתית ?</span>
+          </h2>
+          <p>
+            גם אם אתה מבלה שעות על יצירת פרופיל מושלם והעלאת תוכן מעניין כי אתה
+            בטוח שאנשים ירצו לראות אותו, עליך לתת את הרושם הראשוני הטוב ביותר.
+            רוב האנשים לא יביעו עניין בדף רשת חברתי לא ויראלי שאין לו עוקבים,
+            לייקים ותנועה עוצמתית. אבל אם הם רואים שהרבה אנשים מתעניינים בדף
+            שלך, הם מיד יתעניינו גם כן, ויבדקו בעצמם על מה מדובר SocialBoost כאן
+            כדי לעזור לך!
+          </p>
+          <p>
+            קניית עוקבים ולייקים היא דרך מעולה להפוך את דף הרשת החברתית שלך לדף
+            פופולארי שימשוך את הקהל הנחשף אליו. באמצעות שירותי הקידום שלנו תוכל
+            למשוך את הקהל המבקר בעמוד שלך ובכך להפוך אותו לדף ויראלי שכולם ידברו
+            עליו. כך תשיג את התוצאות שתמיד חלמת עליהם במהירות וביעילות. חבילות
+            קניית העוקבים והלייקים באינסטגרם, בפייסבוק וביוטיוב נועדו להגביר את
+            מסעות הפרסום שלך ברשת החברתית במהירות וביעילות.
+          </p>
+          <ul>
+            <li>
+              <Image
+                className=""
+                src="/assets/images/st-one.png"
+                width={186}
+                height={177}
+                alt=""
+              />
+              הגדלת המכירות והלידים של <br />
+              העסק
+            </li>
+            <li>
+              <Image
+                className=""
+                src="/assets/images/st-two.png"
+                width={186}
+                height={177}
+                alt=""
+              />
+              הגברת המוניטין של העסק <br />
+              בקרב קהל היעד
+            </li>
+            <li>
+              <Image
+                className=""
+                src="/assets/images/st-three.png"
+                width={186}
+                height={177}
+                alt=""
+              />
+              הגברת הנוכחות במדיה <br /> החברתית
+            </li>
+            <li>
+              <Image
+                className=""
+                src="/assets/images/st-four.png"
+                width={186}
+                height={177}
+                alt=""
+              />
+              מקור להגדלת עוקבים <br />
+              אורגניים
+            </li>
+          </ul>
+        </div>
+      </section>
 
-          <section className="tube-outer">
-            <div className="container">
-                <div className="row align-items-center">
-                  <div className="col-md-8">
-                    <div className="tube-outer-left">
-                          <ul>
-                            <li>
-                              <a href="#">
-                               <Image
-                                className=""
-                                src="/assets/images/sv-bt-one.svg"
-                                width={273}
-                                height={52}
-                                alt=""
-                              />
-                              </a>
-                            </li>
-                            <li>
-                               <a href="#">
-                               <Image
-                                className=""
-                                src="/assets/images/sv-bt-two.svg"
-                                width={273}
-                                height={52}
-                                alt=""
-                              />
-                              </a>
-                            </li>
-                             <li>
-                              <a href="#">
-                               <Image
-                                className=""
-                                src="/assets/images/sv-bt-three.svg"
-                                width={273}
-                                height={52}
-                                alt=""
-                              />
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#">
-                               <Image
-                                className=""
-                                src="/assets/images/sv-bt-four.svg"
-                                width={273}
-                                height={52}
-                                alt=""
-                              />
-                              </a>
-                            </li>
-                          </ul>
+      <section className="tube-outer">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-8">
+              <div className="tube-outer-left">
+                <ul>
+                  <li>
+                    <a href="#">
+                      <Image
+                        className=""
+                        src="/assets/images/sv-bt-one.svg"
+                        width={273}
+                        height={52}
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <Image
+                        className=""
+                        src="/assets/images/sv-bt-two.svg"
+                        width={273}
+                        height={52}
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <Image
+                        className=""
+                        src="/assets/images/sv-bt-three.svg"
+                        width={273}
+                        height={52}
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <Image
+                        className=""
+                        src="/assets/images/sv-bt-four.svg"
+                        width={273}
+                        height={52}
+                        alt=""
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="tube-outer-right">
+                <h6>מוכנים להתחיל ?</h6>
+                <h2>
+                  <span>מוכנים</span> להתחיל ?
+                </h2>
+                <p>
+                  כל מה שעליכם לעשות, הוא לבחור את הרשת החברתית, להכניס את הלינק
+                  שאותו אתם רוצים לקדם, ואנחנו נדאג לשאר
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="testo-secion">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-6">
+              <div className="testo-left">
+                <Image
+                  className=""
+                  src="/assets/images/question.png"
+                  width={517}
+                  height={662}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="testo-right">
+                <h6>שאלות תשובות</h6>
+                <h2>
+                  {" "}
+                  תשובות<span> שאלות</span>
+                </h2>
+
+                <div className="accordion" id="accordionExample">
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingOne">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        האם קניית עוקבים ולייקים עלולה לסכן את החשבון?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      className="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <div className="col-md-4">
-                    <div className="tube-outer-right">
-                        <h6>מוכנים להתחיל ?</h6>
-                        <h2><span>מוכנים</span> להתחיל ?</h2>
-                        <p>כל מה שעליכם לעשות, הוא לבחור את הרשת החברתית, להכניס את הלינק שאותו אתם רוצים לקדם, ואנחנו נדאג לשאר</p>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        למה כדאי לקנות את שירותי הקידום באינסטגרם?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        מה זמן אספקת השירות?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFour">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        למה לקנות בסושיאל בוסט ולא מחברות אחרות?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFive">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive"
+                        aria-expanded="false"
+                        aria-controls="collapseFive"
+                      >
+                        למה אנשים קונים עוקבים ולייקים באינסטגרם?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFive"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingFive"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingSix">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix"
+                        aria-expanded="false"
+                        aria-controls="collapseSix"
+                      >
+                        אני צריך לתת סיסמא?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseSix"
+                      className="accordion-collapse collapse"
+                      aria-labelledby="headingSix"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div className="accordion-body">
+                        <p>
+                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
+                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
+                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
+                          להחסם שלא קשורות לקניית השירות.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
+              </div>
             </div>
-          </section>
-
-
-             <section className="testo-secion">
-                <div className="container">
-                  <div className="row align-items-center">
-                      <div className="col-md-6">
-                          <div className="testo-left">
-                              <Image
-                                className=""
-                                src="/assets/images/question.png"
-                                width={517}
-                                height={662}
-                                alt=""
-                              />
-                          </div>
-                      </div>
-                       <div className="col-md-6">
-                           <div className="testo-right">
-                                  <h6>שאלות תשובות</h6>
-                        <h2> תשובות<span> שאלות</span></h2>
-
-                        <div className="accordion" id="accordionExample">
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingOne">
-      <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        האם קניית עוקבים ולייקים עלולה לסכן את החשבון?
-      </button>
-    </h2>
-    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
+          </div>
         </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingTwo">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        למה כדאי לקנות את שירותי הקידום באינסטגרם?
-      </button>
-    </h2>
-    <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
-      </div>
-    </div>
-  </div>
-  <div className="accordion-item">
-    <h2 className="accordion-header" id="headingThree">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        מה זמן אספקת השירות?
-      </button>
-    </h2>
-    <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
-      </div>
-    </div>
-  </div>
-
-   <div className="accordion-item">
-    <h2 className="accordion-header" id="headingFour">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        למה לקנות בסושיאל בוסט ולא מחברות אחרות?
-      </button>
-    </h2>
-    <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
-      </div>
-    </div>
-  </div>
-   <div className="accordion-item">
-    <h2 className="accordion-header" id="headingFive">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        למה אנשים קונים עוקבים ולייקים באינסטגרם?
-      </button>
-    </h2>
-    <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
-      </div>
-    </div>
-  </div>
-
-    <div className="accordion-item">
-    <h2 className="accordion-header" id="headingSix">
-      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-       אני צריך לתת סיסמא?
-      </button>
-    </h2>
-    <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-      <div className="accordion-body">
-  <p>קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.</p>
-      </div>
-    </div>
-  </div>
-</div>
-                            </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <Footer/>
-</>
+      </section>
+      <Footer />
+    </>
   );
 }
