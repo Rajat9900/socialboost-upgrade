@@ -18,7 +18,7 @@ export default function Home() {
               ביותר עם אספקה מהירה ואחריות מלאה.
             </p>
             <a href="#" className="com-btn">
-              Get Started
+            התחילו
             </a>
             <ul>
               <li>

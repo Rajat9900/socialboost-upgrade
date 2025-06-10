@@ -46,8 +46,8 @@ function InstaDetail() {
                       קניית עוקבים ולייקים באינסטגרם המגיעים ממשתמשים אמיתיים מחו"ל. התשלום חד פעמי, מאובטח לגמרי והרכישה דיסקרטית לחלוטין - שמות הלקוחות מוצפנים ולעולם לא ייחשפו.
                     </p>
                       <div className='ft-btn'>
-                                <a href='#' className="com-btn">Explore Services</a>
-                                <a href='#' className="com-btn">Get Started</a>
+                                <a href='#' className="com-btn">חקור שירותים</a>
+                                <a href='#' className="com-btn">התחילו</a>
                             </div>
                             </div>
                         </div>

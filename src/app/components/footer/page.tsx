@@ -12,8 +12,8 @@ function Footer() {
                         <div className='left-footer'>
                             <p>המקום הטוב ביותר לקניית עוקבים, לייקים וצפיות ברשתות החברתיות - באיכות הגבוהה ביותר ובאחריות מלאה.</p>
                             <div className='ft-btn'>
-                                <a href='#' className="com-btn">Explore Services</a>
-                                <a href='#' className="com-btn">Get Started</a>
+                                <a href='#' className="com-btn">חקור שירותיםs</a>
+                                <a href='#' className="com-btn">התחילו</a>
                             </div>
                         </div>
                     </div>
