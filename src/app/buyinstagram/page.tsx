@@ -39,6 +39,7 @@ function Buyinsta() {
 
       <section className="buyer-tab">
         <div className="container">
+          <div className="buy-insta-bk">
           <nav>
             <div className="nav nav-tabs" id="nav-tab" role="tablist">
               <button
@@ -77,6 +78,7 @@ function Buyinsta() {
               aria-labelledby="nav-home-tab"
             >
               <div className="tabing-folower">
+                <div className="tab-white">
                 <div className="count-flowr">
                   <span>-</span>
                   <label>3000</label>
@@ -110,7 +112,8 @@ function Buyinsta() {
                 </ul>
                 <div className="folow-btn">
                   <label>$20.23</label>
-                  <a href="#">לקנות עכשיו</a>
+                  <a href="/instadetail">לקנות עכשיו</a>
+                </div>
                 </div>
               </div>
             </div>
@@ -123,8 +126,7 @@ function Buyinsta() {
               ...
             </div>
           </div>
-
-          <div className="folower-list">
+           <div className="folower-list">
             <div className="rate">
               <Image
                 className=""
@@ -148,6 +150,9 @@ function Buyinsta() {
               <h6>Purchased 2+ times</h6>
             </div>
           </div>
+          </div>
+
+         
         </div>
       </section>
 

@@ -46,6 +46,7 @@ a.navbar-brand {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 9;
 }
 .banner-top {
     padding-top: 140px;
@@ -571,6 +572,15 @@ section.contact-sec {
 .no-image {
     background: no-repeat;
     position: relative;
+  
+}
+.no-image img
+{
+      pointer-events: none;
+}
+.tab-white ul li.grad-bk span {
+    background-image: linear-gradient(to right, #C800CC, #DE7138);
+    color: #fff;
 }
 .no-image img.banar-bk {
     width: 100%;
@@ -590,4 +600,178 @@ section.contact-sec {
 }
 .insta-bnr.banner-top p {
     max-width: 684px;
+}
+.buy-insta-bk {
+    max-width: 716px;
+    margin: 0 auto;
+    padding: 60px 40px 40px;
+        background-image: url("../assets/images/instabg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+       background-size: 109% 100%;
+}
+.buy-insta-bk nav .nav.nav-tabs .nav-link {
+    background: #f8f2ff;
+    border: 1px solid #0000001c;
+    position: relative;
+    z-index: 1;
+    top: 1px;
+    min-width: 158px;
+    border-bottom: 0;
+    margin-right: 20px;
+    border-radius: 16px 16px 0 0;
+    color: #fff;
+    background-image: linear-gradient(to right, #C5A1FF, #6DA5FF);
+    line-height: 1.1;
+    font-size: 18px;
+    padding: 19px 13px;
+}
+.buy-insta-bk nav .nav.nav-tabs .nav-link.active {
+    background: #f8f2ff;
+    color: #000;
+}
+.buy-insta-bk nav .nav.nav-tabs .nav-link span {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    background-image: linear-gradient(to right, #c800cc, #de7138);
+    margin: 0 auto;
+    display: table;
+    padding: 4px 10px;
+    border-radius: 100px;
+}
+.tabing-folower {
+    background: #9747ff12;
+    border: 1px solid #0000001c;
+    border-radius: 0px 12px 12px 12px;
+    box-shadow: 0 0 10px 1px #9747ff42;
+    padding: 20px;
+}
+.tab-white {
+    background: #fff;
+    border: 1px solid #DE7138;
+    border-radius: 10px;
+}
+.count-flowr {
+    display: flex;
+    align-items: center;
+    border: 1px solid #0000001A;
+    border-radius: 100px;
+    padding: 6px;
+    max-width: 535px;
+    margin: 36px auto;
+    justify-content: space-between;
+}
+.count-flowr label {
+    font-size: 24px;
+    font-weight: 400;
+}
+.count-flowr span {
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    box-shadow: 0 0 10px 1px #9747ff96;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #DE7138;
+    cursor: pointer;
+    font-size: 25px;
+    background: linear-gradient(to left, #de7138, #c800cc);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.tab-white ul {
+    padding: 0 31px 25px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    border-bottom: 1px solid #0000007d;
+    margin-bottom: 25px;
+}
+.tab-white ul li {
+    width: 31%;
+    list-style: none;
+}
+.tab-white ul li {
+    border-radius: 12px;
+    border: 1px solid #00000054;
+    text-align: center;
+    overflow: hidden;
+}
+.tab-white ul li span {
+    font-size: 36px;
+    font-weight: 700;
+    background: #ededed;
+    width: 100%;
+    border-bottom: 1px solid #00000054;
+    display: table;
+    padding: 10px 0 8px;
+}
+.tab-white ul h6 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 0 16px;
+    margin: 0;
+}
+.tab-white ul li.grad-test h6 {
+    background: linear-gradient(to left, rgb(222, 113, 56), rgb(200, 0, 204)) text;
+    -webkit-text-fill-color: transparent;
+}       
+.folow-btn {
+    padding: 0 31px 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.folow-btn label {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+.folow-btn a {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(224, 81, 116), rgb(222, 113, 56));
+    border-radius: 100px;
+    padding: 9px 20px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.folower-list {
+    max-width: 636px;
+    margin: 45px auto 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.buyer-tab {
+    padding: 20px 0 40px;
+}
+.coount-prp span {
+    font-size: 18px;
+    font-weight: 400;
+}
+.coount-prp {
+    text-align: right;
+}
+.coount-prp h6 {
+    color: #C800CC;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.right-insta-detial {
+    text-align: right;
+}
+.right-insta-detial .ft-btn a:last-child {
+    background-image: linear-gradient(to right, #FF5A51, #C800CC);
+}
+section.our-packinner-outer {
+    padding: 60px 0 60px;
 }
