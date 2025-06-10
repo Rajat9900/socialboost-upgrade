@@ -87,19 +87,19 @@ function Buyinsta() {
                 <ul>
                   <li>
                     <span>100</span>
-                    <h6>Followers</h6>
+                    <h6>עוקבים</h6>
                   </li>
                   <li>
                     <span>500</span>
-                    <h6>Followers</h6>
+                    <h6>עוקבים</h6>
                   </li>
                   <li className="grad-bk">
                     <span>1000</span>
-                    <h6>Followers</h6>
+                    <h6>עוקבים</h6>
                   </li>
                   <li>
                     <span>2500</span>
-                    <h6>Followers</h6>
+                    <h6>עוקבים</h6>
                   </li>
                   <li className="grad-test">
                     <span>5000</span>
@@ -146,8 +146,8 @@ function Buyinsta() {
               />
             </div>
             <div className="coount-prp">
-              <span>38,571 People</span>
-              <h6>Purchased 2+ times</h6>
+              <span>38,571 אנשים</span>
+              <h6>נרכש פעמיים ומעלה</h6>
             </div>
           </div>
           </div>
