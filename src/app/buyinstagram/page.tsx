@@ -52,8 +52,8 @@ function Buyinsta() {
                 aria-controls="nav-home"
                 aria-selected="true"
               >
-                Active <br />
-                Followers
+                פעיל <br />
+                עוקבים
               </button>
               <button
                 className="nav-link"
@@ -65,8 +65,8 @@ function Buyinsta() {
                 aria-controls="nav-profile"
                 aria-selected="false"
               >
-                <span>Recommended</span>High Quality
-                <br /> Followers
+                <span>Recommended</span>איכות גבוהה
+                <br /> עוקבים
               </button>
             </div>
           </nav>
