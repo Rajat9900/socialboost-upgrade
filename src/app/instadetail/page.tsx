@@ -68,7 +68,7 @@ function InstaDetail() {
 
               <section className='our-packinner-outer'>
                 <div className='container'>
-                    <h4>Our <span>Packages</span></h4>
+                    <h3>Our <span>Packages</span></h3>
                     <div className='row'>
                         <div className='col-md-4'>
                             <div className='our-packinner'>
@@ -92,7 +92,234 @@ function InstaDetail() {
                                         </div>
 
                                         <div className='pack-btn'>
-                                            <h3>₪ 10.8  <span>₪ 12</span></h3>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                            <div className='col-md-4'>
+                            <div className='our-packinner red'>
+                                    <h6>Likes</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                            <div className='col-md-4'>
+                            <div className='our-packinner pink'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                               <div className='col-md-4'>
+                            <div className='our-packinner org'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                             <div className='col-md-4'>
+                            <div className='our-packinner pink'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                            <div className='col-md-4'>
+                            <div className='our-packinner'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                                 <div className='col-md-4'>
+                            <div className='our-packinner prp-light'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                                       <div className='col-md-4'>
+                            <div className='our-packinner prp-dark'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
+                                            <a href='#'>Buy Views</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                                       <div className='col-md-4'>
+                            <div className='our-packinner purple'>
+                                    <h6>Followers</h6>
+                                    <div className='pack-white'>
+                                        <div className='doted-pack'>
+                                            <div className='pack-head'>
+                                                <span>% 10 הנחה</span>
+                                                <h5>קניית צפיות באינסטגרם</h5>
+                                            </div>
+                                            <div className='count-pack'>
+                                                <div className='left-count-pack'>
+                                                    <h4>₪ 0.03 <span>/view</span></h4>
+                                                    <div className='in-dec'>
+                                                        <span>-</span>
+                                                        <label>3000</label>
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div className='pack-btn'>
+                                            <h4>₪ 10.8  <span>₪ 12</span></h4>
                                             <a href='#'>Buy Views</a>
                                         </div>
                                     </div>
@@ -190,13 +417,13 @@ function InstaDetail() {
       <section className='tetxo'>
         <div className='container'>
             <h2>קידום באי <span>נסטגרם</span></h2>
-            <p><a href='#'>Social Boost </a>מובילה את מהפכת הקידום באינסטגרם ומאפשרת לכל מי שמעוניין לשפר את תדמית הדף לרכוש מגוון שירותים שיקנו לו את הבאזז הנכון. כידוע, תדמית בדף האינסטגרם מורכבת משני פרמטרים חשובים – מהתמונות, הסרטונים והפוסטים שתעלו, ובכן מכמות הצפיות, העוקבים והלייקים. מן הסתם, דף שיכיל כמות רבה של עוקבים ידורג בעיניי הגולש לבעל עניין ופופולרי, ובדרך זו יוכל להגביר התעניינות ולייעל את קידום הפרסום בדף. את הפרמטר הראשון שהוא ניהול הדף - אנו סומכים עליכם שתבצעו זאת בצורה הטובה ביותר, ואת כמות העוקבים, הלייקים והצפיות אנחנו נספק לכם.
+            <p className='extra-para'><a href='#'>Social Boost </a>מובילה את מהפכת הקידום באינסטגרם ומאפשרת לכל מי שמעוניין לשפר את תדמית הדף לרכוש מגוון שירותים שיקנו לו את הבאזז הנכון. כידוע, תדמית בדף האינסטגרם מורכבת משני פרמטרים חשובים – מהתמונות, הסרטונים והפוסטים שתעלו, ובכן מכמות הצפיות, העוקבים והלייקים. מן הסתם, דף שיכיל כמות רבה של עוקבים ידורג בעיניי הגולש לבעל עניין ופופולרי, ובדרך זו יוכל להגביר התעניינות ולייעל את קידום הפרסום בדף. את הפרמטר הראשון שהוא ניהול הדף - אנו סומכים עליכם שתבצעו זאת בצורה הטובה ביותר, ואת כמות העוקבים, הלייקים והצפיות אנחנו נספק לכם.
 בניהול דף באינסטגרם, הכמות בהחלט קובעת ויכולה לעשות את ההבדל בין דף סטנדרטי לדף פופולרי ובעל עניין. כן, כאלה אנחנו, מה שוויראלי, פופולרי, עם כמות גדולה של עוקבים ולייקים – מעניין אותנו. חשבו לרגע, כמה פעמים יצא לכם להיכנס לדף מעניין בהחלט, אבל כמות העוקבים שלו הייתה נמוכה, אז וודאי הנחתם שאם אין התעניינות - הדף לא מי יודע מה. אומנם תפיסה מוטעית, אבל כאלה אנחנו, העולם הווירטואלי גבה מחיר והוא – 'הפופולריות'.
 ראשית נזכיר כי רשת האינסטגרם מונה כיום כ- 90 מיליון משתמשים בכל רחבי העולם, ובכל יום מצטרפים אליה משתמשים חדשים ש"חיים" ברשת. הרשת נחשבת לפופולרית בכל רחבי העולם ואפיק פרסומי נהדר לחברות, בעלי עסקים קטנים וגדולים, יוצרים, אושיות וסתם פרופילים רגילים. כלל אנשים אלה מעוניינים לזכות בחשיפה מסיבות שונות, אם זה כדי לקדם מוצרים/שירותים או כדי להפוך לאושיית אינסטגרם ולקבל הצעות שונות מחברות ומותגים, ממש כפי שמקובל בעידן החדש.</p>
             <div className='row'>
                 <div className='col-md-12'>
                     <div className='tetxo-inner'>
-                        <div className='row'>
+                        <div className='row align-items-center'>
                             <div className='col-md-9'>
                                 <div className='tetxo-dec'>
                                         <p><b>הגדלת כמות הלידים של העסק</b>– יבאופן אוטומטי הדף יהיה פופולרי ויביא תנועה, כך גם המכירות של העסק יגדלו.</p>
@@ -204,7 +431,7 @@ function InstaDetail() {
                                 <p>טבעית לחלוטין, כך שתוכלו להגדיל את העוקבים פי שתיים ואולי גם שלוש - רק מקניית עוקבים לאינסטגרם <b>מקור להגדלת עוקבים אורגניים</b> – ככל שכמות העוקבים גדלה, כך באופן טבעי הוא יהיה מקור לחשיפה אורגנית –</p>
                                 </div>
                             </div>
-                             <div className='col-md-9'>
+                             <div className='col-md-3'>
                                 <div className='tetxo-img'>
                                        <Image
                       className=""
