@@ -38,17 +38,17 @@ function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/buysoundcloud">
                       SoundCloud promotion
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/buyfacebook">
                       Facebook Promotion
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">
+                    <a className="nav-link" href="/buyyoutube">
                       YouTube Promotion
                     </a>
                   </li>
