@@ -610,6 +610,19 @@ section.contact-sec {
     background-repeat: no-repeat;
        background-size: 109% 100%;
 }
+.facebook-buy .buy-insta-bk {
+      background-image: url("../assets/images/fb-bg.png");
+
+}
+
+.spund-cloud-buy .buy-insta-bk
+{
+     background-image: url("../assets/images/buy-cloud-bk.png");
+}
+.youtube-buy .buy-insta-bk
+{
+     background-image: url("../assets/images/you-bk.png");
+}
 .buy-insta-bk nav .nav.nav-tabs .nav-link {
     background: #f8f2ff;
     border: 1px solid #0000001c;
@@ -1081,4 +1094,49 @@ section.tetxo h5 {
 }
 .our-packinner.cloud-box.cloud-red-light {
     background: linear-gradient(#FF764A 9%, #fff 50% 100%);
+}
+.banner-top.insta-bnr.cloud-right h2 span, .spund-cloud-buy .tab-white ul li.grad-test h6 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, #e04900, #ff764a);
+    -webkit-background-clip: text;
+}
+section.buyer-tab.spund-cloud-buy .nav.nav-tabs .nav-link span, .spund-cloud-buy .tab-white ul li.grad-bk span {
+    color: #fff;
+    background-image: linear-gradient(to right, #e04900, #ff764a);
+}
+.spund-cloud-buy .tabing-folower {
+    background: #e87b400d;
+}
+.spund-cloud-buy .buy-insta-bk nav .nav.nav-tabs .nav-link.active
+{
+    background: #fef8f5;
+}
+.banner-top.insta-bnr.facebook-right h2 span, .facebook-buy .tab-white ul li.grad-test h6 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, #145dbf, #3b91f7);
+    -webkit-background-clip: text;
+}
+section.buyer-tab.facebook-buy .nav.nav-tabs .nav-link span, .facebook-buy .tab-white ul li.grad-bk span {
+    color: #fff;
+    background-image: linear-gradient(to right, #145dbf, #3b91f7);
+}
+.facebook-buy .tabing-folower {
+    background: #0866ff1a;
+}
+.facebook-buy .buy-insta-bk nav .nav.nav-tabs .nav-link.active {
+    background: #e6efff;
+}
+.banner-top.insta-bnr.youtube-right h2 span, .youtube-buy .tab-white ul li.grad-test h6 {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to left, red, #ff4d4d);
+    -webkit-background-clip: text;
+}
+.youtube-buy .buy-insta-bk nav .nav.nav-tabs .nav-link span, .youtube-buy .tab-white ul li.grad-bk span {
+    background-image: linear-gradient(to right, red, #ff4d4d);
+}
+.youtube-buy .tabing-folower {
+    background: #d2222224;
+}
+.youtube-buy .buy-insta-bk nav .nav.nav-tabs .nav-link.active {
+    background: #f9e0e0;
 }

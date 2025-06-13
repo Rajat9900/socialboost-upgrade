@@ -46,8 +46,8 @@ function Buycloud() {
                                           קניית צפיות ביוטיוב ממשתמשים אמיתיים מכל העולם ועוד מגוון שירותי קידום ביוטיוב הכוללים סאבים, לייקים לסרטוני יוטיוב ועוד. התשלום חד פעמי, מאובטח לגמרי והרכישה דיסקרטית לחלוטין - שמות הלקוחות מוצפנים ולעולם לא ייחשפו.
                                          </p>
                                            <div className='ft-btn'>
-                                                     <a href='#' className="com-btn">חקור שירותים</a>
-                                                     <a href='#' className="com-btn">התחילו</a>
+                                                     <a href='/soundclouddetail' className="com-btn">חקור שירותים</a>
+                                                     <a href='/soundclouddetail' className="com-btn">התחילו</a>
                                                  </div>
                                                  </div>
                                              </div>
@@ -93,7 +93,7 @@ function Buycloud() {
                      
                                                              <div className='pack-btn'>
                                                                  <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                                 <a href='#'>Buy Views</a>
+                                                                 <a href='/soundclouddetail'>Buy Views</a>
                                                              </div>
                                                          </div>
                                                  </div>
@@ -121,7 +121,7 @@ function Buycloud() {
                      
                                                              <div className='pack-btn'>
                                                                  <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                                 <a href='#'>Buy Views</a>
+                                                                 <a href='/soundclouddetail'>Buy Views</a>
                                                              </div>
                                                          </div>
                                                  </div>
@@ -149,7 +149,7 @@ function Buycloud() {
                      
                                                              <div className='pack-btn'>
                                                                  <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                                 <a href='#'>Buy Views</a>
+                                                                 <a href='/soundclouddetail'>Buy Views</a>
                                                              </div>
                                                          </div>
                                                  </div>
