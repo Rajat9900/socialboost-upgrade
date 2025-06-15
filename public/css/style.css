@@ -1140,3 +1140,141 @@ section.buyer-tab.facebook-buy .nav.nav-tabs .nav-link span, .facebook-buy .tab-
 .youtube-buy .buy-insta-bk nav .nav.nav-tabs .nav-link.active {
     background: #f9e0e0;
 }
+.payemnt-left h4 {
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    padding-bottom: 17px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.payemnt-left h4 span {
+    border: 1px solid #C706CD;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 100px;
+}
+
+.payemnt-left ul {
+    padding: 15px 0 0;
+    margin: 0;
+}
+.payemnt-left ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    padding: 18px 0;
+}
+.payemnt-left ul li span {
+    font-size: 20px;
+    font-weight: 500;
+}
+.payemnt-left ul li h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.payemnt-left ul li h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+section.paemt-main-sec {
+    padding: 40px 0 80px;
+}
+.payemnt-left ul li span.price {
+    color: #C800CC;
+}
+.paybtn {
+    text-align: right;
+    margin-top: 32px;
+}
+.paybtn a {
+    background-image: linear-gradient(to right, #ff5a51, #c800cc);
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 29px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.payemnt-right {
+    border: 1px solid #DE7138;
+    border-radius: 12px;
+    padding: 24px;
+}
+.payemnt-right h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 33px;
+    color: #C800CC;
+    font-weight: 700;
+}
+.payemnt-right h4 span {
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.5;
+    color: #000;
+}
+.payemnt-right .formgroup {
+    position: relative;
+    margin-bottom: 27px;
+}
+.payemnt-right .formgroup label {
+    text-align: right;
+    width: 100%;
+    padding-bottom: 3px;
+    font-size: 22px;
+    font-weight: 500;
+    min-height: 29px;
+}
+.payemnt-right .formgroup input {
+    height: 45px;
+    width: 100%;
+    border-radius: 100px;
+    text-align: right;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    padding-right: 45px;
+}
+.alert-data {
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    column-gap: 15px;
+    margin: 14px 0 10px;
+}
+.alert-data h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.alert-data p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.payemnt-right .formgroup.no-pad input {
+    padding-right: 4px;
+}
+.payemnt-left {
+    padding-right: 15px;
+}
+.payemnt-right .formgroup span {
+    position: absolute;
+    top: 44px;
+    right: 13px;
+}
+.payemnt-right .formgroup.payemt-field {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 12px;
+}
+.payemnt-right .formgroup.payemt-field .pay-lohgo {
+    padding-bottom: 7px;
+}
