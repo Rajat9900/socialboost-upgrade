@@ -1278,3 +1278,177 @@ section.paemt-main-sec {
 .payemnt-right .formgroup.payemt-field .pay-lohgo {
     padding-bottom: 7px;
 }
+.payemnt-modal .modal-header button {
+    position: absolute;
+    left: 13px;
+    color: #000;
+    top: 18px;
+    opacity: 1;
+}
+.payemnt-modal .modal-header {
+    border: 0;
+}
+.payment-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin: 8px 0 0;
+    padding: 0 15px;
+}
+.payment-nav span {
+    width: 48px;
+    height: 48px;
+    border: 1px solid #ddd;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+}
+.pay-border {
+    border: 1px solid #ddd;
+    max-width: 452px;
+    margin: 41px auto 12px;
+    padding: 22px;
+    border-radius: 15px;
+}
+.payment-user-name h5 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: 400;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 17px;
+}
+.payemt-name-holder {
+    padding-bottom: 18px;
+    padding-top: 18px;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 15px;
+}
+.payemt-name-holder h4 {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 700;
+}
+.payemt-name-holder h6 {
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+.payemt-cards h5 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 17px;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+.payemt-cards ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 17px;
+}
+.payemt-cards ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+}
+.all-pay-link p {
+    text-align: right;
+    padding: 16px 0 8px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.step-count {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    height: 48px;
+    border-radius: 100px;
+    padding: 6px;
+    width: 100%;
+    justify-content: space-between;
+}
+.payemnt-modal .modal-dialog {
+    max-width: 655px;
+    border: 0;
+}
+.left-step-count {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    color: #00000085;
+}
+.right-step-count {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+a.pay-btn {
+    border: 1px solid #ddd;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    column-gap: 13px;
+    margin: 12px 0;
+    background-image: linear-gradient(to right, #ff5a51, #c800cc);
+}
+.media-view ul {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 14px;
+    flex-wrap: wrap;
+}
+.media-view ul li {
+    list-style: none;
+    position: relative;
+}
+.upload-docs {
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    padding: 22px;
+    max-width: 90%;
+    margin: 32px auto 14px;
+}
+.upload-doc-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.media-view ul li img.chk {
+    position: absolute;
+    right: -3px;
+    top: -3px;
+}
+a.payment-btn {
+    border: 1px solid #ddd;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    column-gap: 13px;
+    background-image: linear-gradient(to right, #e05174, #de7138);
+}
