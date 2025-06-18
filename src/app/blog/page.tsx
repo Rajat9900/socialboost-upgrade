@@ -8,7 +8,7 @@ function Blog() {
     <div>
         <Header/>
              <section>
-                    <div className="banner-top">
+                    <div className="banner-top blog-banners">
                       <div className="container">
                         <h2>
                           שלנו <span>הבלוגים</span> 

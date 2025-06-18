@@ -8,7 +8,7 @@ function Blogdetail() {
     <div>
         <Header/>
              <section>
-                    <div className="banner-top">
+                    <div className="banner-top bog-detail">
                       <div className="container">
                      
                         
@@ -17,7 +17,7 @@ function Blogdetail() {
                       </div>
                     </div>
                   </section>
-                  <section className='blog-outer'>
+                  <section className='blog-outer blog-desc'>
                     <div className='container'>
                             <div className='row'>
                                 <div className='col-md-3'>

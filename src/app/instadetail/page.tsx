@@ -238,6 +238,74 @@ function Instadetail() {
           </div>
         </div>
       </section>
+
+      {/* buy model two */}
+                                        <div className="modal fade payemnt-modal" id="exampleModal"  aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div className="modal-body">
+              <div className="payment-steps">
+                  <div className="payment-nav">
+                    <span> <Image
+                                                          className="banar-bk"
+                                                          src="/assets/images/lt-ar.png"
+                                                          width={18}
+                                                          height={18}
+                                                          alt=""
+                                                        /></span>
+                    <div className="step-count">
+                        <div className="left-step-count">
+                          <Image
+                                                          className="banar-bk"
+                                                          src="/assets/images/step-three.png"
+                                                          width={36}
+                                                          height={36}
+                                                          alt=""
+                                                        />
+                                                        STEP 3 of 4
+                        </div>
+                        <div className="right-step-count">
+                          בחר תמונה או סרטון
+                          <Image
+                                                          className="banar-bk"
+                                                          src="/assets/images/grad-user.png"
+                                                          width={40}
+                                                          height={40}
+                                                          alt=""
+                                                        />
+                                                       
+                        </div>
+                    </div>
+                      <span> <Image
+                                                          className="banar-bk"
+                                                          src="/assets/images/rt-ar.png"
+                                                          width={18}
+                                                          height={18}
+                                                          alt=""
+                                                        /></span>
+                  </div>
+          <div className="upload-docs">
+             <div className="txt-field">
+              <div className="form-group">
+                <label>הכנס את שם המשתמש של חשבון האינסטגרם שלך</label>
+                <textarea placeholder="...write here"></textarea>
+              </div>
+             </div>
+      
+              <div className="media-view">
+          
+                <a href="#" className="pay-btn">Continue</a>
+              </div>
+          </div>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );
