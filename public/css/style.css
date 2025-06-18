@@ -528,6 +528,7 @@ section.contact-sec {
 }
 .right-form form .formGroup {
     position: relative;
+    margin-bottom: 20px;
 }
 .right-form form .formGroup label {
     font-size: 22px;

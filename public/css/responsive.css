@@ -1,0 +1,362 @@
+@media (max-width:1300px)
+{
+.header-main ul.navbar-nav li {
+    margin: 0 9px;
+}
+.header-main ul.navbar-nav li a {
+    font-size: 17px;
+}
+.left-form {
+    padding-right: 100px;
+}
+}
+
+@media (max-width:1199px)
+{
+.header-main ul.navbar-nav li a {
+    font-size: 15px;
+}
+.left-form {
+    padding: 0;
+}
+.header-main ul.navbar-nav li {
+    margin: 0 6px;
+}
+.doted-pack {
+    padding: 18px 10px 20px;
+}
+.pack-head h5 {
+    font-size: 21px;
+}
+.contact-btn a {
+    padding: 8px 13px;
+    font-size: 16px;
+}
+.pack-head span {
+    min-width: 81px;
+    text-align: center;
+    margin-right: 9px;
+}
+a.navbar-brand {
+    margin: 0;
+}
+.in-dec label {
+    font-size: 18px;
+}
+a.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+.in-dec {
+    min-width: 150px;
+}
+.banner-top {   
+    padding-top: 110px;
+}
+.block-social {
+    padding: 13px 15px 14px 0;
+}
+.left-count-pack h4 {
+    font-size: 15px;
+    min-width: 83px;
+}
+.pack-btn {
+    padding: 17px 0 5px 6px;
+}
+h2 {
+    font-size: 40px;
+}
+.pack-btn h4 {
+    font-size: 22px;
+}
+.pack-btn a {
+    padding: 7px 23px;
+    font-size: 16px;
+}
+section.testo-secion .accordion-header button { 
+    font-size: 18px;
+}
+section.about-points h3 {
+    font-size: 30px;
+}
+section.testo-secion .accordion-body p {
+    font-size: 15px;
+}
+.left-footer p {
+    font-size: 15px;
+}
+section.about-points {
+    padding: 30px 0 70px;
+}
+.footer-nav ul li a {
+    padding: 6px 14px;
+    font-size: 18px;
+}
+section.our-packinner-outer h3 {
+    font-size: 30px;
+}
+.copy-right p {
+    font-size: 18px;
+}
+}
+@media (max-width:991px)
+{
+    button.navbar-toggler span.navbar-toggler-icon {
+    background-size: 19px;
+}
+section.contact-sec {
+    padding: 0px 0 40px;
+}
+.left-form h2 {
+    font-size: 32px;
+}
+.banner-top.blog-banners {
+    padding-bottom: 40px;
+}
+section.blog-outer .col-md-3, section.blog-outer .col-md-9 {
+    width: 100%;
+}
+.right-blog {
+    padding-left: 0;
+}
+.left-form p {
+    margin-bottom: 22px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+section.our-packinner-outer .col-md-4 {
+    width: 50%;
+}
+section.tetxo p {
+    font-size: 16px;
+}
+section.tetxo .tetxo-inner p {
+    font-size: 15px;
+}
+.tetxo-inner h3 {
+    font-size: 21px;
+}
+section.tetxo {
+    padding-bottom: 40px;
+}
+button.navbar-toggler {
+    background: #fff;
+    padding: 0 0 0;
+    position: absolute;
+    right: 0;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+button.navbar-toggler span.navbar-toggler-icon {
+    background-size: 19px;
+}
+a.navbar-brand {
+    margin: 0 50px 0 0;
+}
+section.medias-main {
+    padding: 40px 0;
+}
+.media-outer-box .col-md-3 {
+    width: 50%;
+    margin-bottom: 14px;
+}
+section.section-block {
+    padding: 44px 0;
+}
+h2 {
+    font-size: 28px;
+}
+section.section-block .col-md-3 {
+    width: 50%;
+    margin-bottom: 15px;
+}
+section.section-block p {
+    font-size: 16px;
+}
+section.section-block ul li img {
+    margin: -20px 0 -29px 0;
+}
+section.tube-outer {
+    padding: 40px 0;
+}
+.testo-left img {
+    width: 100%;
+    height: auto;
+}
+.testo-right {
+    padding-left: 0;
+}
+section.testo-secion .accordion-header button {
+    font-size: 17px;
+    padding-left: 0;
+}
+.ft-btn {
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: right;
+}
+.footer-nav ul {
+    column-gap: 5px;
+}
+.footer-nav ul li a {
+    font-size: 16px;
+}
+div#navbarSupportedContent {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    background: #fff;
+    padding: 14px 20px;
+    border-radius: 10px;
+}
+div#navbarSupportedContent ul li {
+    padding: 6px 0;
+}
+}
+@media (max-width:767px)
+{
+    h2 {
+    font-size: 27px;
+}
+section.blog-outer {
+    padding-bottom: 10px;
+}
+
+section.blog-outer.blog-desc {
+    margin-top: 0px;
+}
+.buy-insta-bk {
+    padding: 0;
+}
+.banner-top.bog-detail {
+    padding-bottom: 10px;
+}
+.banner-top.no-image .col-md-6:first-child {
+    order: 2;
+    padding-top: 20px;
+}
+.left-box h4 {
+    font-size: 21px;
+}
+.tab-white ul li {
+    width: 47%;
+}
+.blog-detail-right h3 {
+    font-size: 22px;
+}
+.blog-detail-right h6 {
+    font-size: 15px;
+}
+.don-ar {
+    margin-top: 16px;
+}
+.blog-detail-right img {
+    height: 200px;
+}
+.tab-white ul li span {
+    font-size: 30px;
+}
+section.our-packinner-outer .col-md-4 {
+    width: 100%;
+}
+.blog-detail-right h5 {
+    font-size: 20px;
+}
+.clients img {
+    max-width: 140px;
+    height: auto;
+}
+.coount-prp span, .coount-prp h6 {
+    font-size: 16px;
+}
+section.buyer-tab {
+    padding: 20px 0 0px;
+}
+.testo-left {
+    padding-bottom: 20px;
+}
+.folower-list {
+    margin: 29px auto 30px;
+}
+section.our-packinner-outer {
+    padding: 30px 0 20px;
+}
+section.about-points {
+    padding: 10px 0 30px;
+    overflow: hidden;
+}
+.banner-top p {
+    margin: 13px auto;
+    font-size: 17px;
+}
+.right-footer img {
+    margin-top: 20px;
+}
+section.about-points h3 {
+    font-size: 24px;
+}
+.about-inner {
+    border-bottom: 1px solid #f76a0f;
+    border-right: 0px solid #f76a0f;
+}
+.banner-top ul {
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+section.tetxo p.extra-para {
+    margin-bottom: 20px;
+}
+.tetxo-inner h3 {
+    font-size: 20px;
+}
+.tetxo-inner ul li {
+    width: 100%;    
+}
+section.medias-main {
+    padding: 10px 0 40px;
+}
+.media-outer-box h3 {
+    font-size: 27px;
+    text-align: right;
+}
+.media-outer-box p {
+    font-size: 17px;
+    text-align: right;
+}
+.media-outer-box .col-md-3 {
+    width: 100%;
+}
+br
+{
+    display: none;
+}
+section.section-block .col-md-3 {
+    width: 100%;
+}
+section.section-block {
+    padding: 24px 0;
+}
+section.section-block ul li {
+    padding: 0 13px 29px;
+}
+section.tube-outer {
+    padding: 25px 0;
+}
+.tube-outer-left ul {
+    padding: 0 0 24px;
+    justify-content: flex-end;
+}
+section.testo-secion {
+    padding: 0px 0 35px;
+}
+.footer-nav ul {
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.copy-right p {
+    font-size: 13px;
+}
+}

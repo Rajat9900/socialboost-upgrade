@@ -119,7 +119,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
@@ -143,7 +143,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
@@ -167,7 +167,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
@@ -191,7 +191,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
@@ -215,7 +215,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
@@ -239,7 +239,7 @@ function Blog() {
                                                     <h4>שיווק באינסטגרם</h4>
                                                     <h5>איך להשיג יותר לייקים באינסטגרם</h5>
                                                     <p>אפליקציית האינסטגרם היא אחת מהרשתות החברתיות הכי מצליחות ברחבי העולם ועבור חלק מהאנשים שמנהלים בה פרופיל אישי היא </p>
-                                                    <a href='#'><Image
+                                                    <a href='/blogdetail'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/tl-arrow.png"
                                                                     width={37}
