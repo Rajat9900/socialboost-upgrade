@@ -1,7 +1,12 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import React, { useState } from "react"; // add useState
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false); // add state
+
   return (
     <div>
       <div className="header-main">
@@ -14,21 +19,25 @@ function Header() {
               <button
                 className="navbar-toggler"
                 type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
                 aria-label="Toggle navigation"
+                aria-expanded={menuOpen}
+                onClick={() => setMenuOpen((prev) => !prev)} // handle toggle
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div
-                className="collapse navbar-collapse"
+                className={`collapse navbar-collapse${
+                  menuOpen ? " show" : ""
+                }`} // toggle show class
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav m-auto">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="/blog">
+                    <a
+                      className="nav-link active"
+                      aria-current="page"
+                      href="/blog"
+                    >
                       Blog
                     </a>
                   </li>
@@ -59,7 +68,7 @@ function Header() {
                   </li>
                 </ul>
               </div>
-              <a className="navbar-brand" href="#">
+              <Link className="navbar-brand" href="/">
                 <Image
                   className=""
                   src="/assets/images/logo.png"
@@ -67,7 +76,7 @@ function Header() {
                   height={80}
                   alt=""
                 />
-              </a>
+              </Link>
             </div>
           </nav>
         </div>
