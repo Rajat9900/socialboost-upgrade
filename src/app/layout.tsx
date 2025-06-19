@@ -4,6 +4,7 @@ import { Geist, Geist_Mono, Urbanist } from "next/font/google";
 import "./globals.css";
 import "../../public/css/style.css"
 import "../../public/css/responsive.css"
+import Head from "next/head";
 
 
 const geistSans = Geist({
@@ -33,10 +34,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head> <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet"></link></head>
+      <Head>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${urbanist.variable} antialiased`}
-       
       >
         {children}
       </body>
