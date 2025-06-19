@@ -54,7 +54,7 @@ function Footer() {
                                    <li><a href='#'>אודות</a></li>
                                    <li><a href='#'>צור קשר</a></li>
                                    <li><a href='#'>בלוג</a></li>
-                                   <li><a href='#'>תקנון האתר</a></li>
+                                   <li><a href='#'>תנאי האתר</a></li>
                                    <li><a href='#'>הצהרת נגישות</a></li>
                             </ul>
                             

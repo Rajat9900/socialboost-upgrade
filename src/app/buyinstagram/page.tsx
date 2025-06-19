@@ -69,11 +69,11 @@ function Buyinsta() {
 
               <section className='our-packinner-outer'>
                 <div className='container'>
-                    <h3>Our <span>Packages</span></h3>
+                    <h3>החבילות שלנו <span></span></h3>
                     <div className='row'>
                         <div className='col-md-4'>
                             <div className='our-packinner'>
-                                    <h6>Views</h6>
+                                    <h6>צפיות</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -94,14 +94,14 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
                         </div>
                             <div className='col-md-4'>
                             <div className='our-packinner red'>
-                                    <h6>Likes</h6>
+                                    <h6>לייקים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -122,14 +122,14 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
                         </div>
                             <div className='col-md-4'>
                             <div className='our-packinner pink'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -150,14 +150,14 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
                         </div>
                                <div className='col-md-4'>
                             <div className='our-packinner org'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -178,14 +178,14 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
                         </div>
                              <div className='col-md-4'>
                             <div className='our-packinner pink'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -206,14 +206,14 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
                         </div>
                             <div className='col-md-4'>
                             <div className='our-packinner'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -234,7 +234,7 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
@@ -242,7 +242,7 @@ function Buyinsta() {
 
                                  <div className='col-md-4'>
                             <div className='our-packinner prp-light'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -263,7 +263,7 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
@@ -271,7 +271,7 @@ function Buyinsta() {
 
                                        <div className='col-md-4'>
                             <div className='our-packinner prp-dark'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -292,7 +292,7 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>
@@ -300,7 +300,7 @@ function Buyinsta() {
                         
                                        <div className='col-md-4'>
                             <div className='our-packinner purple'>
-                                    <h6>Followers</h6>
+                                    <h6>עוקבים</h6>
                                     <div className='pack-white'>
                                         <div className='doted-pack'>
                                             <div className='pack-head'>
@@ -321,7 +321,7 @@ function Buyinsta() {
 
                                         <div className='pack-btn'>
                                             <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                            <a href='/instadetail'>Buy Views</a>
+                                            <a href='/instadetail'>קנה צפיות</a>
                                         </div>
                                     </div>
                             </div>

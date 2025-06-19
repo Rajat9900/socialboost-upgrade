@@ -28,7 +28,7 @@ function Blog() {
                                 <div className='col-md-3'>
                                     <div className='left-blog'>
                                         <div className='left-box'>
-                                            <h4>Search <Image
+                                            <h4>חיפוש <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/circle.png"
                                                                     width={11}
@@ -36,7 +36,7 @@ function Blog() {
                                                                     alt=""
                                                                   /></h4>
                                                                   <div className='form-group'>
-                                                                    <input type='text' placeholder='Search for...'/>
+                                                                    <input type='text' placeholder='חפש...' />
                                                                     <span><button type='submit'><Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/src.png"
@@ -47,7 +47,7 @@ function Blog() {
                                                                   </div>
                                         </div>
                                         <div className='left-box'>
-                                            <h4>Categories <Image
+                                            <h4>קטגוריות <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/circle.png"
                                                                     width={11}
@@ -55,28 +55,28 @@ function Blog() {
                                                                     alt=""
                                                                   /></h4>
                                                                   <ul>
-                                                                    <li>Facebook <Image
+                                                                    <li>פייסבוק <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/r-arrow.png"
                                                                     width={8}
                                                                     height={12}
                                                                     alt=""
                                                                   /></li>
-                                                                  <li>Instagram <Image
+                                                                  <li>אינסטגרם <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/r-arrow.png"
                                                                     width={8}
                                                                     height={12}
                                                                     alt=""
                                                                   /></li>
-                                                                  <li>Youtube <Image
+                                                                  <li>יוטיוב <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/r-arrow.png"
                                                                     width={8}
                                                                     height={12}
                                                                     alt=""
                                                                   /></li>
-                                                                  <li>SoundCloud <Image
+                                                                  <li>סאונדקלאוד <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/r-arrow.png"
                                                                     width={8}
@@ -86,7 +86,7 @@ function Blog() {
                                                                   </ul>
                                         </div>
                                         <div className='left-box'>
-                                            <h4>Popular Tags  <Image
+                                            <h4>תגיות פופולריות <Image
                                                                     className="banar-bk"
                                                                     src="/assets/images/circle.png"
                                                                     width={11}
@@ -94,10 +94,10 @@ function Blog() {
                                                                     alt=""
                                                                   /></h4>
                                                                   <div className='tags'>
-                                                                    <span>Youtube</span>
+                                                                    <span>יוטיוב</span>
 
-                                                                    <span>Instagram</span>
-                                                                    <span>Facebook</span>
+                                                                    <span>אינסטגרם</span>
+                                                                    <span>פייסבוק</span>
                                                                   </div>
                                                                   </div>
                                     </div>

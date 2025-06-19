@@ -1,7 +1,7 @@
 export default function DetailPage() {
   return (
     <div className="container">
-      <h1>Detail Page</h1>
+      <h1>דף פרטים</h1>
     </div>
   );
 }

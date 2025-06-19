@@ -14,7 +14,7 @@ function Header() {
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid p-0">
               <div className="contact-btn">
-                <Link href={"/contact"}>Contact Us</Link>
+                <Link href={"/contact"}>צור קשר</Link>
               </div>
               <button
                 className="navbar-toggler"
@@ -38,32 +38,32 @@ function Header() {
                       aria-current="page"
                       href="/blog"
                     >
-                      Blog
+                      בלוג
                     </a>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" href="/about">
-                      About
+                      אודות
                     </Link>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buysoundcloud">
-                      SoundCloud promotion
+                      קידום סאונדקלאוד
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyfacebook">
-                      Facebook Promotion
+                      קידום פייסבוק
                     </a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyyoutube">
-                      YouTube Promotion
+                      קידום יוטיוב
                     </a>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" href="/buyinstagram">
-                      Instagram Promotion
+                      קידום אינסטגרם
                     </Link>
                   </li>
                 </ul>

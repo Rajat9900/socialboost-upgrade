@@ -70,11 +70,11 @@ function Buyyoutube() {
        
                      <section className='our-packinner-outer youtube-pack'>
                        <div className='container'>
-                           <h3>Our <span>Packages</span></h3>
+                           <h3>החבילות שלנו <span></span></h3>
                            <div className='row'>
                                <div className='col-md-4'>
                                    <div className='our-packinner youtube-box tube-red-dark'>
-                                           <h6>Views</h6>
+                                           <h6>צפיות</h6>
                                            <div className='pack-white'>
                                                <div className='doted-pack'>
                                                    <div className='pack-head'>
@@ -83,7 +83,7 @@ function Buyyoutube() {
                                                    </div>
                                                    <div className='count-pack'>
                                                        <div className='left-count-pack'>
-                                                           <h4>₪ 0.03 <span>/view</span></h4>
+                                                           <h4>₪ 0.03 <span>/צפייה</span></h4>
                                                            <div className='in-dec'>
                                                                <span>-</span>
                                                                <label>3000</label>
@@ -95,14 +95,14 @@ function Buyyoutube() {
        
                                                <div className='pack-btn'>
                                                    <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                   <a href='/youtubedetail'>Buy Views</a>
+                                                   <a href='/youtubedetail'>קנה צפיות</a>
                                                </div>
                                            </div>
                                    </div>
                                </div>
                                    <div className='col-md-4'>
                                    <div className='our-packinner youtube-box tube-red-med'>
-                                           <h6>Likes</h6>
+                                           <h6>לייקים</h6>
                                            <div className='pack-white'>
                                                <div className='doted-pack'>
                                                    <div className='pack-head'>
@@ -111,7 +111,7 @@ function Buyyoutube() {
                                                    </div>
                                                    <div className='count-pack'>
                                                        <div className='left-count-pack'>
-                                                           <h4>₪ 0.03 <span>/view</span></h4>
+                                                           <h4>₪ 0.03 <span>/צפייה</span></h4>
                                                            <div className='in-dec'>
                                                                <span>-</span>
                                                                <label>3000</label>
@@ -123,14 +123,14 @@ function Buyyoutube() {
        
                                                <div className='pack-btn'>
                                                    <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                   <a href='/youtubedetail'>Buy Views</a>
+                                                   <a href='/youtubedetail'>קנה צפיות</a>
                                                </div>
                                            </div>
                                    </div>
                                </div>
                                    <div className='col-md-4'>
                                    <div className='our-packinner youtube-box tube-red-light'>
-                                           <h6>Followers</h6>
+                                           <h6>עוקבים</h6>
                                            <div className='pack-white'>
                                                <div className='doted-pack'>
                                                    <div className='pack-head'>
@@ -139,7 +139,7 @@ function Buyyoutube() {
                                                    </div>
                                                    <div className='count-pack'>
                                                        <div className='left-count-pack'>
-                                                           <h4>₪ 0.03 <span>/view</span></h4>
+                                                           <h4>₪ 0.03 <span>/צפייה</span></h4>
                                                            <div className='in-dec'>
                                                                <span>-</span>
                                                                <label>3000</label>
@@ -151,7 +151,7 @@ function Buyyoutube() {
        
                                                <div className='pack-btn'>
                                                    <h4>₪ 10.8  <span>₪ 12</span></h4>
-                                                   <a href='/youtubedetail'>Buy Views</a>
+                                                   <a href='/youtubedetail'>קנה צפיות</a>
                                                </div>
                                            </div>
                                    </div>
@@ -167,7 +167,7 @@ function Buyyoutube() {
        
             <section className="about-points youtube-pack">
                <div className="container">
-                   <h3>Lorem <span>Ipsum</span></h3>
+                   <h3>הסבר על קידום ביוטיוב <span></span></h3>
                  <div className="about-box">
                    <div className="row">
                      <div className="col-md-6">
