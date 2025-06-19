@@ -1,6 +1,6 @@
 body
 {
-    font-family: "Urbanist", sans-serif !important;
+   font-family: "Heebo", sans-serif !important;
 }
 body .container {
     max-width: 1280px;
@@ -361,13 +361,16 @@ section.testo-secion .accordion-body p {
 .logo-footer {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 .left-footer p {
     text-align: right;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.3;
+    padding-left: 30px;
+    margin: 15px 0 0;
+    opacity: 0.6;
 }
 .ft-btn {
     display: flex;
@@ -1644,4 +1647,21 @@ section.simmilar-pro h3 {
     text-align: right;
     font-size: 14px;
     padding: 10px 14px 0;
+}
+.left-footer {
+    text-align: right;
+}
+.left-footer ul {
+    padding: 0;
+    margin: 0;
+}
+.left-footer ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+.left-footer ul li a {
+    color: #000;
+    opacity: 0.6;
+    text-decoration: none;
+    border-bottom: 1px dashed;
 }

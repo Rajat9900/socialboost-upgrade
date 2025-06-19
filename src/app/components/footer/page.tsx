@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -7,43 +8,80 @@ function Footer() {
         <footer>
             <div className='logo-footer'>
             <div className='container'>
-                <div className='row align-items-center'>
-                    <div className='col-md-3'>
+                <div className='row'>
+                    <div className='col-md-2'>
                         <div className='left-footer'>
-                            <p>המקום הטוב ביותר לקניית עוקבים, לייקים וצפיות ברשתות החברתיות - באיכות הגבוהה ביותר ובאחריות מלאה.</p>
-                            <div className='ft-btn'>
-                                <a href='#' className="com-btn">חקור שירותיםs</a>
-                                <a href='#' className="com-btn">התחילו</a>
-                            </div>
+                            <h4>קידום בפייסבוק</h4>
+                            <ul>
+                                <li><a href='#'>קניית לייקים לדף בפייסבוק</a></li>
+                                <li><a href='#'>קניית לייקים בפייסבוק</a></li>
+                                 <li><a href='#'>קניית צפיות לפייסבוק</a></li>
+                                  <li><a href='#'>קניית עוקבים בפייסבוק</a></li>
+                            </ul>
+                            
                         </div>
                     </div>
-                    <div className='col-md-9'>
-                        <div className='right-footer'>
-                             <Image
-                                                  className=""
-                                                  src="/assets/images/logo.png"
-                                                  width={130}
-                                                  height={80}
-                                                  alt=""
-                                                />
-                            </div>
+                   <div className='col-md-2'>
+                        <div className='left-footer'>
+                            <h4>קידום ביוטיוב</h4>
+                            <ul>
+                              
+                                   <li><a href='#'>קניית צפיות ביוטיוב</a></li>
+                                    <li><a href='#'>קניית עוקבים ביוטיוב</a></li>
+                                    <li><a href='#'>קניית לייקים ביוטיוב</a></li>
+                            </ul>
+                            
                         </div>
+                    </div>
+                     <div className='col-md-3'>
+                        <div className='left-footer'>
+                            <h4>קידום באינסטגרם</h4>
+                            <ul>
+                              
+                                    <li><a href='#'>קניית עוקבים באינסטגרם</a></li>
+                                    <li><a href='#'>קניית לייקים באינסטגרם</a></li>
+                                    <li><a href='#'>קניית צפיות באינסטגרם</a></li>
+                                    <li><a href='#'>קניית תגובות באינסטגרם</a></li>
+                                    <li><a href='#'>קניית צפיות לסטורי באינסטגרם</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                    <div className='col-md-2'>
+                        <div className='left-footer'>
+                            <h4>ניווט מהיר</h4>
+                            <ul>
+                              
+                                   <li><a href='#'>אודות</a></li>
+                                   <li><a href='#'>צור קשר</a></li>
+                                   <li><a href='#'>בלוג</a></li>
+                                   <li><a href='#'>תקנון האתר</a></li>
+                                   <li><a href='#'>הצהרת נגישות</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                     <div className='col-md-3'>
+                        <div className='left-footer'>
+                             <Link className="navbar-brand" href="/">
+                <Image
+                  className=""
+                  src="/assets/images/logo.png"
+                  width={130}
+                  height={80}
+                  alt=""
+                />
+              </Link>
+                           <p>המקום הטוב ביותר לקניית עוקבים, לייקים וצפיות ברשתות החברתיות - באיכות הגבוהה ביותר ובאחריות מלאה.
+
+</p>
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
-            <div className='footer-nav'>
-                <div className='container'>
-                <ul>
-                    <li><a href='#'>קידום בפייסבוק</a></li>
-                     <li><a href='#'>קידום ביוטיוב</a></li>
-                      <li><a href='#'>קידום באינסטגרם</a></li>
-                       <li><a href='#'>ניווט מהיר</a></li>
-                        <li><a href='#'>בלוג</a></li>
-                         <li><a href='#'>צור קשר</a></li>
-                          <li><a href='#'>אודות</a></li>
-                </ul>
-                </div>
-            </div>
+          
             <div className='copy-right'>
                 <div className='container'>
                   <Image
