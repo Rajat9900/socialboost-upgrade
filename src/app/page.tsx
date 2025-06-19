@@ -3,8 +3,43 @@
 import Image from "next/image";
 import Header from "./components/header/page";
 import Footer from "./components/footer/page";
+import React, { useState } from "react";
 
 export default function Home() {
+  const faqs = [
+    {
+      question: "האם קניית עוקבים ולייקים עלולה לסכן את החשבון?",
+      answer:
+        "קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול להחסם שלא קשורות לקניית השירות.",
+    },
+    {
+      question: "למה כדאי לקנות את שירותי הקידום באינסטגרם?",
+      answer:
+        "שירותי הקידום באינסטגרם שאנו מציעים הם באחריות מלאה לכל החיים! קניית עוקבים ולייקים באינסטגרם ובשאר הרשתות נותנת לחשבון שלכם אמינות ומגדילה את המעורבות של הגולשים, ולבסוף גם את המכירות בעסק שלכם.",
+    },
+    {
+      question: "מה זמן אספקת השירות?",
+      answer:
+        "רוב השירותים באתר מסופקים לחשבון תוך דקות. ישנם שירותים שזמן ההתחלה שלהם יכול להימשך עד מספר שעות, כמו עוקבים באינסטגרם או צפיות ביוטיוב.",
+    },
+    {
+      question: "למה לקנות בסושיאל בוסט ולא מחברות אחרות?",
+      answer:
+        "סושיאל בוסט היא מהראשונות בשוק - עוד ב-2016 התחלנו למכור שירותי קידום באינסטגרם ובמהלך השנים עזרנו לאלפי לקוחות ישראלים לקדם את החשבון שלהם ברשתות. אנו היחידים שמציעים אחריות מלאה על כל השירותים לכל החיים, ומספקים עבורכם אספקה של חשבונות אותנטיים, אמיתיים וישראלים.",
+    },
+    {
+      question: "למה אנשים קונים עוקבים ולייקים באינסטגרם?",
+      answer:
+        "בעולם המדיה, הנראות משחקת תפקיד חשוב במשיכת הגולשים. חשבון עם כמות עוקבים ולייקים גדולה מספיק תיצור עניין אצל הגולש ותגרום לו לבחון את התוכן בעמוד שלכם.",
+    },
+    {
+      question: "האם צריך לספק סיסמה?",
+      answer:
+        "בקניית המוצרים שלנו אין צורך לספק את הסיסמה. אנחנו שומרים על פרטיות החשבון שלך ואנחנו רק צריכים את שם המשתמש או את הפוסט אליו תרצה לקבל את השירות.",
+    },
+  ];
+  const [openIndex, setOpenIndex] = useState<number | null>(0);
+
   return (
     <>
       <Header />
@@ -449,187 +484,34 @@ export default function Home() {
               <div className="testo-right">
                 <h6>שאלות תשובות</h6>
                 <h2>
-                  {" "}
                   תשובות<span> שאלות</span>
                 </h2>
-
                 <div className="accordion" id="accordionExample">
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
-                      <button
-                        className="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
+                  {faqs.map((faq, idx) => (
+                    <div className="accordion-item" key={idx}>
+                      <h2 className="accordion-header" id={`heading${idx}`}>
+                        <button
+                          className={`accordion-button${openIndex === idx ? "" : " collapsed"}`}
+                          type="button"
+                          aria-expanded={openIndex === idx}
+                          aria-controls={`collapse${idx}`}
+                          onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
+                        >
+                          {faq.question}
+                        </button>
+                      </h2>
+                      <div
+                        id={`collapse${idx}`}
+                        className={`accordion-collapse collapse${openIndex === idx ? " show" : ""}`}
+                        aria-labelledby={`heading${idx}`}
+                        data-bs-parent="#accordionExample"
                       >
-                        האם קניית עוקבים ולייקים עלולה לסכן את החשבון?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      className="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
+                        <div className="accordion-body">
+                          <p>{faq.answer}</p>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingTwo">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo"
-                        aria-expanded="false"
-                        aria-controls="collapseTwo"
-                      >
-                        למה כדאי לקנות את שירותי הקידום באינסטגרם?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseTwo"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingTwo"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingThree">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree"
-                        aria-expanded="false"
-                        aria-controls="collapseThree"
-                      >
-                        מה זמן אספקת השירות?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseThree"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingThree"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFour">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFour"
-                        aria-expanded="false"
-                        aria-controls="collapseFour"
-                      >
-                        למה לקנות בסושיאל בוסט ולא מחברות אחרות?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFour"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingFour"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingFive">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseFive"
-                        aria-expanded="false"
-                        aria-controls="collapseFive"
-                      >
-                        למה אנשים קונים עוקבים ולייקים באינסטגרם?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseFive"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingFive"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingSix">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseSix"
-                        aria-expanded="false"
-                        aria-controls="collapseSix"
-                      >
-                        אני צריך לתת סיסמא?
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseSix"
-                      className="accordion-collapse collapse"
-                      aria-labelledby="headingSix"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div className="accordion-body">
-                        <p>
-                          קניית עוקבים, לייקים, או כל שירות אחר באתר אינו מסכן
-                          או מזיק לחשבון שלכם ואנו מבטיחים בזאת שלא ייחסם בעקבות
-                          שימוש בשירות. ישנן סיבות אחרות שבגללן החשבון יכול
-                          להחסם שלא קשורות לקניית השירות.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
                 </div>
               </div>
             </div>
