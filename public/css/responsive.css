@@ -220,15 +220,29 @@ div#navbarSupportedContent ul li {
     h2 {
     font-size: 27px;
 }
+a.navbar-brand img {
+    max-width: 78px;
+}
 section.blog-outer {
     padding-bottom: 10px;
 }
-
+.image-wrp {
+    padding-left: 14px;
+}
 section.blog-outer.blog-desc {
     margin-top: 0px;
 }
+.left-footer {
+    margin-bottom: 30px;
+}
 .buy-insta-bk {
     padding: 0;
+}
+.logo-footer {
+    padding: 30px 0 0;
+}
+.left-footer a.navbar-brand {
+    margin: 0;
 }
 .banner-top.bog-detail {
     padding-bottom: 10px;
