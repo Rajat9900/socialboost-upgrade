@@ -1666,3 +1666,27 @@ section.simmilar-pro h3 {
     text-decoration: none;
     border-bottom: 1px dashed;
 }
+.header-main ul.navbar-nav li:hover ul.dropdown-menu {
+    text-align: right;
+    border: 0;
+    padding: 18px 0px;
+    display: block;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu li a {
+    text-decoration: none;
+    font-size: 17px;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu li {
+    padding: 5px 22px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu li a img {
+    max-width: 18px;
+    height: auto;
+    margin-left: 14px;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu li:last-child
+{
+    border: 0;
+}

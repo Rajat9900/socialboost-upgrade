@@ -5,6 +5,7 @@ import Header from "./components/header/page";
 import Footer from "./components/footer/page";
 import React, { useState } from "react";
 
+
 export default function Home() {
   const faqs = [
     {
