@@ -221,6 +221,9 @@ div#navbarSupportedContent ul li {
     h2 {
     font-size: 27px;
 }
+.image-wrp {
+    margin-right: 10px;
+}
 .testo-left img {
     max-width: 220px;
     text-align: right;

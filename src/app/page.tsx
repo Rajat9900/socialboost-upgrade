@@ -55,9 +55,9 @@ export default function Home() {
               ותגובות בכל הרשתות במקום אחד. אנו מספקים חשבונות באיכות הגבוהה
               ביותר עם אספקה מהירה ואחריות מלאה.
             </p>
-            <a href="#" className="com-btn">
+            {/* <a href="#" className="com-btn">
             התחילו
-            </a>
+            </a> */}
             <ul>
               <li>
                 משלוח מהיר{" "}
@@ -229,12 +229,12 @@ export default function Home() {
             הגבוהה ביותר ובאחריות מלאה
           </p>
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-6">
               <div className="block-social">
                 <div className="image-wrp">
                   <Image
                     className=""
-                    src="/assets/images/tl-one.png"
+                    src="/assets/images/ly-one.svg"
                     width={70}
                     height={70}
                     alt=""
@@ -251,12 +251,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <div className="block-social">
                 <div className="image-wrp">
                   <Image
                     className=""
-                    src="/assets/images/tl-two.png"
+                    src="/assets/images/ly-two.svg"
                     width={70}
                     height={70}
                     alt=""
@@ -275,12 +275,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <div className="block-social">
                 <div className="image-wrp">
                   <Image
                     className=""
-                    src="/assets/images/tl-three.png"
+                    src="/assets/images/ly-three.svg"
                     width={57}
                     height={70}
                     alt=""
@@ -299,12 +299,12 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-6">
               <div className="block-social">
                 <div className="image-wrp">
                   <Image
                     className=""
-                    src="/assets/images/tl-four.png"
+                    src="/assets/images/ly-four.svg"
                     width={60}
                     height={70}
                     alt=""

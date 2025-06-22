@@ -83,6 +83,7 @@ function Footer() {
           
             <div className='copy-right'>
                 <div className='container'>
+                    <div className='logo-ft'>
                   <Image
                                                   className=""
                                                   src="/assets/images/pay.png"
@@ -90,6 +91,7 @@ function Footer() {
                                                   height={24}
                                                   alt=""
                                                 />
+                                                </div>
                 <p>כל הזכויות שמורות ל - סושיאל בוסט 2025 © | www.socialboost.co.il</p>
                 <p>אתר זה אינו מזוהה ממומן או מורשה על ידי Instagram או כל מותג באתר זה.</p>
             </div>

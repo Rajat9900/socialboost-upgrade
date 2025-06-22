@@ -35,8 +35,11 @@ h2 {
     font-weight: 400;
     padding: 0 !important;
 }
+.header-main ul.navbar-nav li a.nav-link img {
+    margin-left: 3px;
+}
 .header-main ul.navbar-nav li {
-    margin: 0 15px;
+    margin: 0 11px;
 }
 a.navbar-brand {
     padding: 0;
@@ -197,25 +200,28 @@ section.section-block p {
 .block-social {
     border: 2px solid #C800CC;
     border-radius: 12px;
-    padding: 20px 20px 20px 0;
+    padding: 20px;
     display: flex;
     /* align-items: center; */
     height: 100%;
+}
+section.section-block .row .col-md-6 {
+    margin-bottom: 23px;
 }
 .block-social h5 {
     font-size: 20px;
     font-weight: 500;
 }
 .block-social h5 span {
-    background: #FF397C;
+    color: #fff;
+    background: #02be97;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
     width: 31px;
     height: 31px;
-    display: flex;
-    border-radius: 100px;
-    color: #fff;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
+    display: flex;
 }
 .block-social h5 {
     font-size: 20px;
@@ -227,24 +233,25 @@ section.section-block p {
     margin: 0;
 }
 section.section-block .block-social p {
-    margin: 11px 0 0;
     text-align: right;
-    font-size: 14px;
+    margin: 11px 0 0;
+    font-size: 16px;
     font-weight: 400;
 }
 .block-social h5 span.prp {
-    background: #9747FF;
+    background: #fe62c1;
 }
-.block-social h5  span.pnk {
-    background: #C800CC;
+.block-social h5 span.pnk {
+    background: #fd264c;
 }
 .block-social h5 span.org {
-    background: #F76A0F;
+    background: #006fff;
 }
 .image-wrp {
+    align-items: center;
     height: 100%;
     display: flex;
-    align-items: center;
+    margin-right: 60px;
 }
 section.section-block ul {
     max-width: 628px;
@@ -371,7 +378,7 @@ section.testo-secion .accordion-body p {
     line-height: 1.3;
     padding-left: 30px;
     margin: 15px 0 0;
-    opacity: 0.6;
+    opacity: 01;
 }
 .ft-btn {
     display: flex;
@@ -416,10 +423,24 @@ section.testo-secion .accordion-body p {
     padding: 31px 0 20px;
 }
 .copy-right p {
+    margin: 7px 0 0;
     font-size: 20px;
     font-weight: 500;
-    margin: 7px 0 0;
+    color: #fff;
     line-height: 1.3;
+}
+.logo-ft {
+    background: #fff;
+    margin: 0 auto;
+    display: table;
+    padding: 14px 30px;
+    border-radius: 5px;
+}
+.left-footer a.navbar-brand {
+    background: #fff;
+    display: inline-block;
+    padding: 4px 3px;
+    border-radius: 10px;
 }
 .testo-right.about-desc p {
     font-size: 18px;
@@ -673,14 +694,14 @@ section.contact-sec {
     border-radius: 10px;
 }
 .count-flowr {
-    display: flex;
-    align-items: center;
-    border: 1px solid #0000001A;
+    border: 1px solid #0000001a;
     border-radius: 100px;
-    padding: 6px;
-    max-width: 535px;
-    margin: 36px auto;
     justify-content: space-between;
+    align-items: center;
+    max-width: 235px;
+    margin: 36px auto;
+    padding: 6px;
+    display: flex;
 }
 .count-flowr label {
     font-size: 24px;
@@ -742,10 +763,13 @@ section.contact-sec {
     -webkit-text-fill-color: transparent;
 }       
 .folow-btn {
-    padding: 0 31px 29px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 121px 29px;
+    display: flex;
+}
+.header-main .container {
+    max-width: 1370px;
 }
 .folow-btn label {
     font-size: 28px;
@@ -834,14 +858,17 @@ section.our-packinner-outer h3 span {
     font-weight: 700;
 }
 .left-count-pack {
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 16px;
 }
 .left-count-pack h4 {
-    font-size: 16px;
-    font-weight: 500;
     margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    display: none;
 }
 .left-count-pack h4 span {
     opacity: 0.4;
@@ -1649,8 +1676,12 @@ section.simmilar-pro h3 {
     font-size: 14px;
     padding: 10px 14px 0;
 }
+footer {
+    background: #337df7;
+}
 .left-footer {
     text-align: right;
+    color: #fff;
 }
 .left-footer ul {
     padding: 0;
@@ -1661,10 +1692,10 @@ section.simmilar-pro h3 {
     margin-bottom: 8px;
 }
 .left-footer ul li a {
-    color: #000;
-    opacity: 0.6;
-    text-decoration: none;
+    color: #fff;
+    opacity: 1;
     border-bottom: 1px dashed;
+    text-decoration: none;
 }
 .header-main ul.navbar-nav li:hover ul.dropdown-menu {
     text-align: right;
@@ -1689,4 +1720,30 @@ section.simmilar-pro h3 {
 .header-main ul.navbar-nav li:hover ul.dropdown-menu li:last-child
 {
     border: 0;
+}
+section.section-block h6, section.section-block h2, section.section-block p {
+    text-align: right;
+    margin-right: initial;
+    margin-left: auto;
+    
+}
+section.section-block .row {
+    margin-top: 40px;
+}
+.contact-btn.cart-tb {
+    position: relative;
+}
+span.cart-count {
+    background: #a356d6;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 100px;
+    position: absolute;
+    top: -2px;
+    right: -12px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
 }
