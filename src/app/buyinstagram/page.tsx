@@ -1,10 +1,74 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Footer from "../components/footer/page";
 import Header from "../components/header/page";
 
 function Buyinsta() {
+  // State for each package (assuming 8 packages as in the markup)
+  const [amounts, setAmounts] = useState(Array(8).fill(3000));
+
+  // Handlers for increment/decrement
+  const handleDecrement = (idx: number) => {
+    setAmounts((prev) =>
+      prev.map((amt, i) => (i === idx ? Math.max(100, amt - 100) : amt))
+    );
+  };
+  const handleIncrement = (idx: number) => {
+    setAmounts((prev) => prev.map((amt, i) => (i === idx ? amt + 100 : amt)));
+  };
+
+  // Helper to render a package card
+  const renderPackage = (
+    idx: number,
+    title: string,
+    className: string,
+    link: string = "/instadetail"
+  ) => (
+    <div className="col-md-4" key={idx}>
+      <div className={`our-packinner${className ? " " + className : ""}`}>
+        <h6>{title}</h6>
+        <div className="pack-white">
+          <div className="doted-pack">
+            <div className="pack-head">
+              <span>% 10 הנחה</span>
+              <h5>קניית צפיות באינסטגרם</h5>
+            </div>
+            <div className="count-pack">
+              <div className="left-count-pack">
+                <h4>
+                  ₪ 0.03 <span>/view</span>
+                </h4>
+                <div className="in-dec">
+                  <span
+                    onClick={() => handleDecrement(idx)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    -
+                  </span>
+                  <label>{amounts[idx]}</label>
+                  <span
+                    onClick={() => handleIncrement(idx)}
+                    style={{ cursor: "pointer" }}
+                  >
+                    +
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="pack-btn">
+            <h4>
+              ₪ {(amounts[idx] * 0.03 * 0.9).toFixed(2)}{" "}
+              <span>₪ {(amounts[idx] * 0.03).toFixed(2)}</span>
+            </h4>
+            <a href={link}>קנה צפיות</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <div>
       <Header />
@@ -78,297 +142,15 @@ function Buyinsta() {
             החבילות שלנו <span></span>
           </h3>
           <div className="row">
-            <div className="col-md-4">
-              <div className="our-packinner">
-                <h6>צפיות</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="our-packinner red">
-                <h6>לייקים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="our-packinner pink">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="our-packinner org">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="our-packinner pink">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="our-packinner">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="our-packinner prp-light">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="our-packinner prp-dark">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div className="our-packinner purple">
-                <h6>עוקבים</h6>
-                <div className="pack-white">
-                  <div className="doted-pack">
-                    <div className="pack-head">
-                      <span>% 10 הנחה</span>
-                      <h5>קניית צפיות באינסטגרם</h5>
-                    </div>
-                    <div className="count-pack">
-                      <div className="left-count-pack">
-                        <h4>
-                          ₪ 0.03 <span>/view</span>
-                        </h4>
-                        <div className="in-dec">
-                          <span>-</span>
-                          <label>3000</label>
-                          <span>+</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="pack-btn">
-                    <h4>
-                      ₪ 10.8 <span>₪ 12</span>
-                    </h4>
-                    <a href="/instadetail">קנה צפיות</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {renderPackage(0, "צפיות", "", "/instadetail")}
+            {renderPackage(1, "לייקים", "red", "/instadetail")}
+            {renderPackage(2, "עוקבים", "pink", "/instadetail")}
+            {renderPackage(3, "עוקבים", "org", "/instadetail")}
+            {renderPackage(4, "עוקבים", "pink", "/instadetail")}
+            {renderPackage(5, "עוקבים", "", "/instadetail")}
+            {renderPackage(6, "עוקבים", "prp-light", "/instadetail")}
+            {renderPackage(7, "עוקבים", "prp-dark", "/instadetail")}
+            {renderPackage(8, "עוקבים", "purple", "/instadetail")}
           </div>
         </div>
       </section>
