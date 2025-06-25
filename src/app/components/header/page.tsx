@@ -37,15 +37,7 @@ function Header() {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav m-auto">
-                  <li className="nav-item">
-                    <a
-                      className="nav-link active"
-                      aria-current="page"
-                      href="/contact"
-                    >
-                      צור קשר
-                    </a>
-                  </li>
+                  
                   <li className="nav-item">
                     <a
                       className="nav-link active"
@@ -82,7 +74,7 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                          כל שירותי האינסטגרם
+                         כל שירותי הסאונדקלאוד
                           <Image
                             className=""
                             src="/assets/images/sound.png"
@@ -100,7 +92,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית עוקבים באינסטגרם
+                           קניית עוקבים לסאונדלקאוד
                           <Image
                             className=""
                             src="/assets/images/usr.png"
@@ -118,12 +110,12 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית לייקים באינסטגרם
+                          קניית השמעות לסאונדקלאוד
                           <Image
                             className=""
-                            src="/assets/images/heart.png"
-                            width={25}
-                            height={22}
+                            src="/assets/images/play.png"
+                            width={18}
+                            height={18}
                             alt=""
                           />
                         </a>
@@ -136,12 +128,12 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית צפיות באינסטגרם
+                          קניית לייקים לסאונדקלאוד
                           <Image
                             className=""
-                            src="/assets/images/ey.png"
+                            src="/assets/images/ok.png"
                             width={25}
-                            height={17}
+                            height={25}
                             alt=""
                           />
                         </a>
@@ -153,50 +145,18 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                          קניית תגובות באינסטגרם
+                          קניית שיתופים לסאונדקלאוד
                           <Image
                             className=""
-                            src="/assets/images/chat.png"
-                            width={25}
-                            height={21}
-                            alt=""
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/instagram-story-views"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית צפיות לסטורי באינסטגרם{" "}
-                          <Image
-                            className=""
-                            src="/assets/images/cam.png"
+                            src="/assets/images/share.png"
                             width={25}
                             height={22}
                             alt=""
                           />
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/igrobot"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית רובוט אינסטגרם
-                          <Image
-                            className=""
-                            src="/assets/images/andriod.png"
-                            width={19}
-                            height={22}
-                            alt=""
-                          />
-                        </a>
-                      </li>{" "}
+                      
+                     {" "}
                     </ul>
                   </li>
                   <li className="nav-item">
@@ -221,7 +181,7 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                          כל שירותי האינסטגרם
+                          כל שירותי הפייסבוק
                           <Image
                             className=""
                             src="/assets/images/fbb.png"
@@ -239,10 +199,10 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית עוקבים באינסטגרם
+                          קניית לייקים לדף בפייסבוק
                           <Image
                             className=""
-                            src="/assets/images/usr.png"
+                            src="/assets/images/ok.png"
                             width={25}
                             height={25}
                             alt=""
@@ -257,12 +217,12 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית לייקים באינסטגרם
+                           קניית לייקים בפייסבוק
                           <Image
                             className=""
-                            src="/assets/images/heart.png"
+                            src="/assets/images/ok.png"
                             width={25}
-                            height={22}
+                            height={25}
                             alt=""
                           />
                         </a>
@@ -275,7 +235,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית צפיות באינסטגרם
+                        קניית צפיות לפייסבוק
                           <Image
                             className=""
                             src="/assets/images/ey.png"
@@ -292,50 +252,17 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                          קניית תגובות באינסטגרם
+                          קניית עוקבים בפייסבוק
                           <Image
                             className=""
-                            src="/assets/images/chat.png"
+                            src="/assets/images/usr.png"
                             width={25}
-                            height={21}
+                            height={25}
                             alt=""
                           />
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/instagram-story-views"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית צפיות לסטורי באינסטגרם{" "}
-                          <Image
-                            className=""
-                            src="/assets/images/cam.png"
-                            width={25}
-                            height={22}
-                            alt=""
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/igrobot"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית רובוט אינסטגרם
-                          <Image
-                            className=""
-                            src="/assets/images/andriod.png"
-                            width={19}
-                            height={22}
-                            alt=""
-                          />
-                        </a>
-                      </li>{" "}
+                    {" "}
                     </ul>
                   </li>
                   <li className="nav-item">
@@ -360,7 +287,7 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                          כל שירותי האינסטגרם
+                          כל שירותי היוטיוב
                           <Image
                             className=""
                             src="/assets/images/you.png"
@@ -378,12 +305,12 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית עוקבים באינסטגרם
+                          קניית צפיות ביוטיוב
                           <Image
                             className=""
-                            src="/assets/images/usr.png"
+                            src="/assets/images/ey.png"
                             width={25}
-                            height={25}
+                            height={17}
                             alt=""
                           />
                         </a>
@@ -396,12 +323,12 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית לייקים באינסטגרם
+                           קניית עוקבים ביוטיוב
                           <Image
                             className=""
-                            src="/assets/images/heart.png"
+                            src="/assets/images/usr.png"
                             width={25}
-                            height={22}
+                            height={25}
                             alt=""
                           />
                         </a>
@@ -414,67 +341,17 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                          קניית צפיות באינסטגרם
+                          קניית לייקים ביוטיוב
                           <Image
                             className=""
-                            src="/assets/images/ey.png"
+                            src="/assets/images/ok.png"
                             width={25}
                             height={17}
                             alt=""
                           />
                         </a>
                       </li>
-                      <li>
-                        <a
-                          href="/instagram-comments"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית תגובות באינסטגרם
-                          <Image
-                            className=""
-                            src="/assets/images/chat.png"
-                            width={25}
-                            height={21}
-                            alt=""
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/instagram-story-views"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית צפיות לסטורי באינסטגרם{" "}
-                          <Image
-                            className=""
-                            src="/assets/images/cam.png"
-                            width={25}
-                            height={22}
-                            alt=""
-                          />
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="/igrobot"
-                          data-toggle="collapse"
-                          data-target=".navbar-collapse"
-                          className="needToClose"
-                        >
-                          קניית רובוט אינסטגרם
-                          <Image
-                            className=""
-                            src="/assets/images/andriod.png"
-                            width={19}
-                            height={22}
-                            alt=""
-                          />
-                        </a>
-                      </li>{" "}
+                      {" "}
                     </ul>
                   </li>
                   <li className="nav-item">

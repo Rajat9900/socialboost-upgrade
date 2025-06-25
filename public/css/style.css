@@ -40,6 +40,7 @@ h2 {
 }
 .header-main ul.navbar-nav li {
     margin: 0 11px;
+    position: relative;
 }
 a.navbar-brand {
     padding: 0;
@@ -1697,20 +1698,30 @@ footer {
     border-bottom: 1px dashed;
     text-decoration: none;
 }
+.accordion-item .accordion-body {
+    padding-right: 0;
+}
 .header-main ul.navbar-nav li:hover ul.dropdown-menu {
     text-align: right;
     border: 0;
-    padding: 18px 0px;
+    padding: 18px 0;
     display: block;
+    left: initial;
+    right: 0;
+    transform: translate(0);
+    min-width: 249px;
 }
 .header-main ul.navbar-nav li:hover ul.dropdown-menu li a {
+    font-size: 15px;
     text-decoration: none;
-    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .header-main ul.navbar-nav li:hover ul.dropdown-menu li {
-    padding: 5px 22px;
     border-bottom: 1px solid #ddd;
     margin: 0;
+    padding: 5px 16px;
 }
 .header-main ul.navbar-nav li:hover ul.dropdown-menu li a img {
     max-width: 18px;
