@@ -338,9 +338,16 @@ section.about-points h3 {
     border-right: 0px solid #f76a0f;
 }
 .banner-top ul {
-    padding: 0;
     flex-wrap: wrap;
     gap: 11px;
+    padding: 0;
+    justify-content: flex-end;
+}
+.media-box h4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
 }
 section.tetxo p.extra-para {
     margin-bottom: 20px;
