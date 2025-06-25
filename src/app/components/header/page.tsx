@@ -37,7 +37,6 @@ function Header() {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav m-auto">
-                  
                   <li className="nav-item">
                     <a
                       className="nav-link active"
@@ -54,7 +53,15 @@ function Header() {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buysoundcloud">
-                        <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-arrow">
+                        <Image
+                          className=""
+                          src="/assets/images/down-arrow.png"
+                          width={11}
+                          height={22}
+                          alt=""
+                        />
+                      </span>
                       <span className="dropdown-heading">
                         קידום סאונדקלאוד{" "}
                       </span>{" "}
@@ -74,7 +81,7 @@ function Header() {
                           data-target=".navbar-collapse"
                           className="needToClose"
                         >
-                         כל שירותי הסאונדקלאוד
+                          כל שירותי הסאונדקלאוד
                           <Image
                             className=""
                             src="/assets/images/sound.png"
@@ -92,7 +99,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                           קניית עוקבים לסאונדלקאוד
+                          קניית עוקבים לסאונדלקאוד
                           <Image
                             className=""
                             src="/assets/images/usr.png"
@@ -154,17 +161,21 @@ function Header() {
                             alt=""
                           />
                         </a>
-                      </li>
-                      
-                     {" "}
+                      </li>{" "}
                     </ul>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyfacebook">
-                       <span className="dropdown-arrow">▼</span>
-                      <span className="dropdown-heading">
-                         קידום פייסבוק 
-                      </span>{" "}
+                      <span className="dropdown-arrow">
+                        <Image
+                          className=""
+                          src="/assets/images/down-arrow.png"
+                          width={11}
+                          height={22}
+                          alt=""
+                        />
+                      </span>
+                      <span className="dropdown-heading">קידום פייסבוק</span>{" "}
                       <Image
                         className=""
                         src="/assets/images/fbb.png"
@@ -217,7 +228,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                           קניית לייקים בפייסבוק
+                          קניית לייקים בפייסבוק
                           <Image
                             className=""
                             src="/assets/images/ok.png"
@@ -235,7 +246,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                        קניית צפיות לפייסבוק
+                          קניית צפיות לפייסבוק
                           <Image
                             className=""
                             src="/assets/images/ey.png"
@@ -261,15 +272,22 @@ function Header() {
                             alt=""
                           />
                         </a>
-                      </li>
-                    {" "}
+                      </li>{" "}
                     </ul>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyyoutube">
-                        <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-arrow">
+                        <Image
+                          className=""
+                          src="/assets/images/down-arrow.png"
+                          width={11}
+                          height={22}
+                          alt=""
+                        />
+                      </span>
                       <span className="dropdown-heading">
-                        קידום יוטיוב 
+                        קידום יוטיוב
                       </span>{" "}
                       <Image
                         className=""
@@ -323,7 +341,7 @@ function Header() {
                           className="needToClose"
                         >
                           {" "}
-                           קניית עוקבים ביוטיוב
+                          קניית עוקבים ביוטיוב
                           <Image
                             className=""
                             src="/assets/images/usr.png"
@@ -350,16 +368,21 @@ function Header() {
                             alt=""
                           />
                         </a>
-                      </li>
-                      {" "}
+                      </li>{" "}
                     </ul>
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" href="/buyinstagram">
-                    <span className="dropdown-arrow">▼</span>
-                      <span className="dropdown-heading">
-                        קידום אינסטגרם 
-                      </span>{" "}
+                      <span className="dropdown-arrow">
+                        <Image
+                          className=""
+                          src="/assets/images/down-arrow.png"
+                          width={11}
+                          height={22}
+                          alt=""
+                        />
+                      </span>
+                      <span className="dropdown-heading">קידום אינסטגרם</span>{" "}
                       <Image
                         className=""
                         src="/assets/images/insta.png"

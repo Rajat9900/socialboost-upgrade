@@ -1758,7 +1758,7 @@ span.cart-count {
     color: #fff;
     font-size: 12px;
 }
-.nav-link .dropdown-arrow {
-    margin-right: 2px;
-    font-size: 14px;
+.nav-link .dropdown-arrow img {
+    width: 16px;
+    height: 16px;
 }
