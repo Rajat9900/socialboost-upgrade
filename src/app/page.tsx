@@ -139,7 +139,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="media-box">
                   <h4>
-                    לקנות מנויי יוטיוב{" "}
+                    לקנות מנויי סאונדקלאוד{" "}
                     <Image
                       className=""
                       src="/assets/images/cloud.svg"
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="media-box">
                   <h4>
-                    לקנות מנויי יוטיוב{" "}
+                    לקנות מנויי פייסבוק{" "}
                     <Image
                       className=""
                       src="/assets/images/fb.svg"
@@ -189,7 +189,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="media-box">
                   <h4>
-                    לקנות מנויי יוטיוב{" "}
+                    לקנות מנויי אינסטגרם{" "}
                     <Image
                       className=""
                       src="/assets/images/insta.svg"

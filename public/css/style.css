@@ -918,7 +918,7 @@ section.our-packinner-outer h3 span {
     font-weight: 400;
     color: #fff;
     text-decoration: none;
-    padding: 8px 28px;
+    padding: 8px 16px;
     border-radius: 8px;
 }
 .our-packinner {
@@ -1746,4 +1746,8 @@ span.cart-count {
     justify-content: center;
     color: #fff;
     font-size: 12px;
+}
+.nav-link .dropdown-arrow {
+    margin-right: 2px;
+    font-size: 14px;
 }

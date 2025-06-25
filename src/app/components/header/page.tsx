@@ -14,14 +14,14 @@ function Header() {
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid p-0">
               <div className="contact-btn cart-tb">
-                 <Image
-                                 className=""
-                                 src="/assets/images/cart.png"
-                                 width={30}
-                                 height={30}
-                                 alt=""
-                               />
-                               <span className="cart-count">1</span>
+                <Image
+                  className=""
+                  src="/assets/images/cart.png"
+                  width={30}
+                  height={30}
+                  alt=""
+                />
+                <span className="cart-count">1</span>
               </div>
               <button
                 className="navbar-toggler"
@@ -62,13 +62,17 @@ function Header() {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buysoundcloud">
-                      קידום סאונדקלאוד <Image
-                            className=""
-                            src="/assets/images/sound.png"
-                            width={25}
-                            height={11}
-                            alt=""
-                          />
+                        <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-heading">
+                        קידום סאונדקלאוד{" "}
+                      </span>{" "}
+                      <Image
+                        className=""
+                        src="/assets/images/sound.png"
+                        width={25}
+                        height={11}
+                        alt=""
+                      />
                     </a>
                     <ul className="dropdown-menu">
                       <li>
@@ -197,13 +201,17 @@ function Header() {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyfacebook">
-                      קידום פייסבוק <Image
-                            className=""
-                            src="/assets/images/fbb.png"
-                            width={11}
-                            height={22}
-                            alt=""
-                          />
+                       <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-heading">
+                         קידום פייסבוק 
+                      </span>{" "}
+                      <Image
+                        className=""
+                        src="/assets/images/fbb.png"
+                        width={11}
+                        height={22}
+                        alt=""
+                      />
                     </a>
                     <ul className="dropdown-menu">
                       <li>
@@ -332,13 +340,17 @@ function Header() {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/buyyoutube">
-                      קידום יוטיוב <Image
-                                        className=""
-                                        src="/assets/images/you.png"
-                                        width={24}
-                                        height={17}
-                                        alt=""
-                                      />
+                        <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-heading">
+                        קידום יוטיוב 
+                      </span>{" "}
+                      <Image
+                        className=""
+                        src="/assets/images/you.png"
+                        width={24}
+                        height={17}
+                        alt=""
+                      />
                     </a>
                     <ul className="dropdown-menu">
                       <li>
@@ -467,13 +479,17 @@ function Header() {
                   </li>
                   <li className="nav-item">
                     <Link className="nav-link" href="/buyinstagram">
-                      קידום אינסטגרם <Image
-                                        className=""
-                                        src="/assets/images/insta.png"
-                                        width={22}
-                                        height={22}
-                                        alt=""
-                                      />
+                    <span className="dropdown-arrow">▼</span>
+                      <span className="dropdown-heading">
+                        קידום אינסטגרם 
+                      </span>{" "}
+                      <Image
+                        className=""
+                        src="/assets/images/insta.png"
+                        width={22}
+                        height={22}
+                        alt=""
+                      />
                     </Link>
                     <ul className="dropdown-menu">
                       <li>
@@ -603,13 +619,13 @@ function Header() {
                 </ul>
               </div>
               <Link className="navbar-brand" href="/">
-               <Image
-                                 className=""
-                                 src="/assets/images/logo.png"
-                                 width={130}
-                                 height={80}
-                                 alt=""
-                               />
+                <Image
+                  className=""
+                  src="/assets/images/logo.png"
+                  width={130}
+                  height={80}
+                  alt=""
+                />
               </Link>
             </div>
           </nav>
