@@ -453,7 +453,7 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <div className="tube-outer-right">
-                <h6>מוכנים להתחיל ?</h6>
+                {/* <h6>מוכנים להתחיל ?</h6> */}
                 <h2>
                   <span>מוכנים</span> להתחיל ?
                 </h2>
@@ -483,7 +483,7 @@ export default function Home() {
             </div>
             <div className="col-md-6">
               <div className="testo-right">
-                <h6>שאלות תשובות</h6>
+                {/* <h6>שאלות תשובות</h6> */}
                 <h2>
                   תשובות<span> שאלות</span>
                 </h2>

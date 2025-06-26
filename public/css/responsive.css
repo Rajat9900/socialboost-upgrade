@@ -4,7 +4,7 @@
     margin: 0 9px;
 }
 .header-main ul.navbar-nav li a {
-    font-size: 17px;
+    font-size: 18px;
 }
 .left-form {
     padding-right: 100px;
@@ -81,7 +81,7 @@ section.about-points h3 {
     font-size: 30px;
 }
 section.testo-secion .accordion-body p {
-    font-size: 15px;
+    font-size: 18px;
 }
 .left-footer p {
     font-size: 15px;
@@ -123,7 +123,7 @@ section.blog-outer .col-md-3, section.blog-outer .col-md-9 {
 .left-form p {
     margin-bottom: 22px;
     padding-left: 10px;
-    font-size: 17px;
+    font-size: 18px;
 }
 section.our-packinner-outer .col-md-4 {
     width: 50%;
@@ -189,8 +189,9 @@ section.tube-outer {
     padding-left: 0;
 }
 section.testo-secion .accordion-header button {
-    font-size: 17px;
     padding-left: 0;
+    font-size: 19px;
+    font-weight: 600;
 }
 .ft-btn {
     flex-direction: column;
@@ -292,7 +293,7 @@ section.blog-outer.blog-desc {
     height: 200px;
 }
 .tab-white ul li span {
-    font-size: 30px;
+    font-size: 24px;
 }
 section.our-packinner-outer .col-md-4 {
     width: 100%;
@@ -300,12 +301,25 @@ section.our-packinner-outer .col-md-4 {
 .blog-detail-right h5 {
     font-size: 20px;
 }
+.folow-btn {
+    padding: 0 13px 20px;
+}
 .clients img {
     max-width: 140px;
     height: auto;
 }
+.folow-btn label {
+    font-size: 23px;
+}
 .coount-prp span, .coount-prp h6 {
     font-size: 16px;
+}
+.buy-insta-bk nav .nav.nav-tabs .nav-link {
+
+            min-width: 146px;
+    margin-right: 5px;
+    padding: 19px 13px;
+    font-size: 17px;
 }
 section.buyer-tab {
     padding: 20px 0 0px;
@@ -325,7 +339,7 @@ section.about-points {
 }
 .banner-top p {
     margin: 13px auto;
-    font-size: 17px;
+    font-size: 18px;
 }
 .right-footer img {
     margin-top: 20px;
@@ -366,11 +380,15 @@ section.medias-main {
     text-align: right;
 }
 .media-outer-box p {
-    font-size: 17px;
+    font-size: 18px;
     text-align: right;
 }
 .media-outer-box .col-md-3 {
     width: 100%;
+}
+.tab-white ul {
+    gap: 10px;
+    padding: 0 13px 25px;
 }
 br
 {

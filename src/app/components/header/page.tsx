@@ -13,16 +13,18 @@ function Header() {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light ">
             <div className="container-fluid p-0">
-              <div className="contact-btn cart-tb">
-                <Image
+               <div className="contact-btn cart-tb">
+                {/* <Image
                   className=""
                   src="/assets/images/cart.png"
                   width={30}
                   height={30}
                   alt=""
                 />
-                <span className="cart-count">1</span>
-              </div>
+                <span className="cart-count">1</span> */}
+                 <a href="/contact">צור קשר</a>
+              </div> 
+             
               <button
                 className="navbar-toggler"
                 type="button"
