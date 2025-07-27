@@ -222,6 +222,21 @@ div#navbarSupportedContent ul li {
     h2 {
     font-size: 27px;
 }
+.left-insta-detial {
+    display: none;
+}
+.header-main ul.navbar-nav li a {
+    font-size: 17px;
+    font-weight: 600;
+}
+.header-main ul.navbar-nav li a.nav-link span img {
+    margin-left: 0;
+    margin-right: 9px;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu {
+    padding: 12px 0 0;
+    min-width: initial;
+}
 .image-wrp {
     margin-right: 10px;
 }
@@ -231,6 +246,15 @@ div#navbarSupportedContent ul li {
     margin-left: auto;
     float: right;
     margin-bottom: 20px;
+}
+.header-main ul.navbar-nav li:hover ul.dropdown-menu li a {
+    font-size: 17px;
+}
+div#navbarSupportedContent ul li.nav-item:first-child {
+    order: 5;
+}
+div#navbarSupportedContent ul li.nav-item:nth-child(2) {
+    order: 6;
 }
 .left-insta-detial img {
     max-width: 240px;
