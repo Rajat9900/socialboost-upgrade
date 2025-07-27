@@ -54,7 +54,7 @@ function Header() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/buysoundcloud">
+                    <a className="nav-link" href="/soundcloud">
                       <span className="dropdown-arrow">
                         <Image
                           className=""
@@ -78,7 +78,7 @@ function Header() {
                     <ul className="dropdown-menu">
                       <li>
                         <a
-                          href="/buysoundcloud"
+                          href="/soundcloud"
                           data-toggle="collapse"
                           data-target=".navbar-collapse"
                           className="needToClose"
@@ -167,7 +167,7 @@ function Header() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/buyfacebook">
+                    <a className="nav-link" href="/facebook">
                       <span className="dropdown-arrow">
                         <Image
                           className=""
@@ -189,7 +189,7 @@ function Header() {
                     <ul className="dropdown-menu">
                       <li>
                         <a
-                          href="/buyfacebook"
+                          href="/facebook"
                           data-toggle="collapse"
                           data-target=".navbar-collapse"
                           className="needToClose"
@@ -278,7 +278,7 @@ function Header() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/buyyoutube">
+                    <a className="nav-link" href="/youtube">
                       <span className="dropdown-arrow">
                         <Image
                           className=""
@@ -302,7 +302,7 @@ function Header() {
                     <ul className="dropdown-menu">
                       <li>
                         <a
-                          href="/buyyoutube"
+                          href="/youtube"
                           data-toggle="collapse"
                           data-target=".navbar-collapse"
                           className="needToClose"
@@ -374,7 +374,7 @@ function Header() {
                     </ul>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="/buyinstagram">
+                    <Link className="nav-link" href="/instagram">
                       <span className="dropdown-arrow">
                         <Image
                           className=""
@@ -396,7 +396,7 @@ function Header() {
                     <ul className="dropdown-menu">
                       <li>
                         <a
-                          href="/buyinstagram"
+                          href="/instagram"
                           data-toggle="collapse"
                           data-target=".navbar-collapse"
                           className="needToClose"

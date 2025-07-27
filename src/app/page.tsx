@@ -5,7 +5,6 @@ import Header from "./components/header/page";
 import Footer from "./components/footer/page";
 import React, { useState } from "react";
 
-
 export default function Home() {
   const faqs = [
     {
@@ -50,8 +49,13 @@ export default function Home() {
             <h2>
               קניית עוקבים לייקים וצפיות <span>וברשתות החברתיות</span> באינסטגרם
             </h2>
-            <p>
+            {/* <p>
               האתר הותיק בישראל לקידום באינסטגרם - קידום עוקבים, לייקים, צפיות
+              ותגובות בכל הרשתות במקום אחד. אנו מספקים חשבונות באיכות הגבוהה
+              ביותר עם אספקה מהירה ואחריות מלאה.
+            </p> */}
+            <p dir="rtl">
+              האתר הותיק בישראל לקידום באינסטגרם – קידום עוקבים, לייקים, צפיות
               ותגובות בכל הרשתות במקום אחד. אנו מספקים חשבונות באיכות הגבוהה
               ביותר עם אספקה מהירה ואחריות מלאה.
             </p>
@@ -329,12 +333,13 @@ export default function Home() {
 
       <section className="section-block">
         <div className="container">
-          <h6>למה לקנות ?</h6>
+          <h6 dir="rtl">למה לקנות?</h6>
+
           <h2>
             למה לקנות עוקבים ולייקים ברשת <br />
-            <span>החברתית ?</span>
+            <span dir="rtl">החברתית ?</span>
           </h2>
-          <p>
+          <p dir="rtl">
             גם אם אתה מבלה שעות על יצירת פרופיל מושלם והעלאת תוכן מעניין כי אתה
             בטוח שאנשים ירצו לראות אותו, עליך לתת את הרושם הראשוני הטוב ביותר.
             רוב האנשים לא יביעו עניין בדף רשת חברתי לא ויראלי שאין לו עוקבים,
@@ -342,7 +347,7 @@ export default function Home() {
             שלך, הם מיד יתעניינו גם כן, ויבדקו בעצמם על מה מדובר SocialBoost כאן
             כדי לעזור לך!
           </p>
-          <p>
+          <p dir="rtl">
             קניית עוקבים ולייקים היא דרך מעולה להפוך את דף הרשת החברתית שלך לדף
             פופולארי שימשוך את הקהל הנחשף אליו. באמצעות שירותי הקידום שלנו תוכל
             למשוך את הקהל המבקר בעמוד שלך ובכך להפוך אותו לדף ויראלי שכולם ידברו
@@ -453,9 +458,8 @@ export default function Home() {
             </div>
             <div className="col-md-4">
               <div className="tube-outer-right">
-                {/* <h6>מוכנים להתחיל ?</h6> */}
-                <h2>
-                  <span>מוכנים</span> להתחיל ?
+                <h2 dir="rtl">
+                  <span>מוכנים</span><span> להתחיל ?</span>
                 </h2>
                 <p>
                   כל מה שעליכם לעשות, הוא לבחור את הרשת החברתית, להכניס את הלינק
@@ -492,23 +496,31 @@ export default function Home() {
                     <div className="accordion-item" key={idx}>
                       <h2 className="accordion-header" id={`heading${idx}`}>
                         <button
-                          className={`accordion-button${openIndex === idx ? "" : " collapsed"}`}
+                          className={`accordion-button${
+                            openIndex === idx ? "" : " collapsed"
+                          }`}
                           type="button"
                           aria-expanded={openIndex === idx}
                           aria-controls={`collapse${idx}`}
-                          onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
+                          onClick={() =>
+                            setOpenIndex(openIndex === idx ? null : idx)
+                          }
+                          style={{justifyContent:'flex-start'}}
+                          dir="rtl"
                         >
                           {faq.question}
                         </button>
                       </h2>
                       <div
                         id={`collapse${idx}`}
-                        className={`accordion-collapse collapse${openIndex === idx ? " show" : ""}`}
+                        className={`accordion-collapse collapse${
+                          openIndex === idx ? " show" : ""
+                        }`}
                         aria-labelledby={`heading${idx}`}
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          <p>{faq.answer}</p>
+                          <p dir="rtl">{faq.answer}</p>
                         </div>
                       </div>
                     </div>
