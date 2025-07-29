@@ -127,7 +127,7 @@ export default function Home() {
                       alt=""
                     />
                   </h4>
-                  <h6>המחיר מתחיל מ-$3</h6>
+                  <h6>המחיר מתחיל מ-₪3</h6>
                   <div className="order-bk">
                     <a href="#">הזמן עכשיו</a>
                     <Image
@@ -152,7 +152,7 @@ export default function Home() {
                       alt=""
                     />
                   </h4>
-                  <h6>המחיר מתחיל מ-$3</h6>
+                  <h6>המחיר מתחיל מ-₪3</h6>
                   <div className="order-bk">
                     <a href="#">הזמן עכשיו</a>
                     <Image
@@ -177,7 +177,7 @@ export default function Home() {
                       alt=""
                     />
                   </h4>
-                  <h6>המחיר מתחיל מ-$3</h6>
+                  <h6>המחיר מתחיל מ-₪3</h6>
                   <div className="order-bk">
                     <a href="#">הזמן עכשיו</a>
                     <Image
@@ -202,7 +202,7 @@ export default function Home() {
                       alt=""
                     />
                   </h4>
-                  <h6>המחיר מתחיל מ-$3</h6>
+                  <h6>המחיר מתחיל מ-₪3</h6>
                   <div className="order-bk">
                     <a href="#">הזמן עכשיו</a>
                     <Image

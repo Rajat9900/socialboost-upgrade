@@ -1,10 +1,11 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Header from "../components/header/page";
 import Footer from "../components/footer/page";
 
 function Clouddetail() {
+  const [purchaseAmount, setPurchaseAmount] = useState(3000);
   return (
     <div>
       <Header />
@@ -55,19 +56,6 @@ function Clouddetail() {
                   פעיל <br />
                   עוקבים
                 </button>
-                <button
-                  className="nav-link"
-                  id="nav-profile-tab"
-                  data-bs-toggle="tab"
-                  data-bs-target="#nav-profile"
-                  type="button"
-                  role="tab"
-                  aria-controls="nav-profile"
-                  aria-selected="false"
-                >
-                  <span>Recommended</span>איכות גבוהה
-                  <br /> עוקבים
-                </button>
               </div>
             </nav>
             <div className="tab-content" id="nav-tabContent">
@@ -80,9 +68,17 @@ function Clouddetail() {
                 <div className="tabing-folower">
                   <div className="tab-white">
                     <div className="count-flowr">
-                      <span>-</span>
-                      <label>3000</label>
-                      <span>+</span>
+                      <span
+                        onClick={() => setPurchaseAmount((prev) => prev - 100)}
+                      >
+                        -
+                      </span>
+                      <label>{purchaseAmount}</label>
+                      <span
+                        onClick={() => setPurchaseAmount((prev) => prev - 100)}
+                      >
+                        +
+                      </span>
                     </div>
                     <ul>
                       <li>
@@ -111,7 +107,7 @@ function Clouddetail() {
                       </li>
                     </ul>
                     <div className="folow-btn">
-                      <label>$20.23</label>
+                      <label>₪20.23</label>
                       <a href="/instadetail">לקנות עכשיו</a>
                     </div>
                   </div>
